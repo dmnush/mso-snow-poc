@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>simulate external call</description>
+        <ih_action>true</ih_action>
+        <internal_name>mso_rest_apih_to_stub</internal_name>
+        <label_cache>[{"name":"{{action.input_json}}","label":"action➛input_json","type":"action","ref":""},{"name":"{{action.input_json_to_stub}}","label":"action➛input_json_to_stub","type":"action","ref":""},{"name":"{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <master_snapshot>1159a9811bf434504b33a825604bcb0d</master_snapshot>
+        <name>MSO REST APIH to stub</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:46:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>83ae59c91bb434504b33a825604bcb74</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>MSO REST APIH to stub</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_83ae59c91bb434504b33a825604bcb74</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=83ae59c91bb434504b33a825604bcb74"/>
+    <sys_variable_value action="delete_multiple" query="document_key=83ae59c91bb434504b33a825604bcb74"/>
+    <sys_element_mapping action="delete_multiple" query="id=83ae59c91bb434504b33a825604bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stub_response_code</field>
+        <id>83ae59c91bb434504b33a825604bcb74</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>97cf990d1bb434504b33a825604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</table>
+        <value>{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stub_response_payload_json</field>
+        <id>83ae59c91bb434504b33a825604bcb74</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>d3cf990d1bb434504b33a825604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</table>
+        <value>{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=83ae59c91bb434504b33a825604bcb74^sys_idNOT INdbcf990d1bb434504b33a825604bcb0d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</action>
+        <cid>c0684b1e-e728-4dc7-b456-3d28301a556c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:29</sys_created_on>
+        <sys_id>dbcf990d1bb434504b33a825604bcb0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:32:38</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbcf990d1bb434504b33a825604bcb0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>17cf990d1bb434504b33a825604bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>53cf990d1bb434504b33a825604bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>93cf990d1bb434504b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>9bcf990d1bb434504b33a825604bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>9fcf990d1bb434504b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:32:38</sys_created_on>
+        <sys_id>bd39e5811bf434504b33a825604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:32:38</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>d7cf990d1bb434504b33a825604bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:32:38</sys_updated_on>
+        <value>https://5b1425fc-892a-4672-a11c-148fc71de86a.mock.pstmn.io</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dbcf990d1bb434504b33a825604bcb0d</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>dbcf990d1bb434504b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <value>/so-bpmn/postSICreateRequest</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbcf990d1bb434504b33a825604bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>13cf990d1bb434504b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>5fcf990d1bb434504b33a825604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>d7cf990d1bb434504b33a825604bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.input_json_to_stub}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>9bcf990d1bb434504b33a825604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>17cf990d1bb434504b33a825604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>d7cf990d1bb434504b33a825604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>9fcf990d1bb434504b33a825604bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:32:38</sys_created_on>
+        <sys_id>f139e5811bf434504b33a825604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:32:38</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>dbcf990d1bb434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>53cf990d1bb434504b33a825604bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=83ae59c91bb434504b33a825604bcb74^sys_idNOT IN93cf990d1bb434504b33a825604bcb05"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=16af39f9-a156-431e-8207-6976f9ab1df8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input_json_to_stub</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>input_json_to_stub</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</model>
+        <model_id>83ae59c91bb434504b33a825604bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_83ae59c91bb434504b33a825604bcb74</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:29</sys_created_on>
+        <sys_id>93cf990d1bb434504b33a825604bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=83ae59c91bb434504b33a825604bcb74^sys_idNOT IN97cf990d1bb434504b33a825604bcb32,97cf990d1bb434504b33a825604bcb39"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=fc5d48bf-36ae-4359-a6ab-04aeff72966f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stub_response_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>stub_response_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</model>
+        <model_id>83ae59c91bb434504b33a825604bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>97cf990d1bb434504b33a825604bcb32</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=ed40ce95-eaf4-48b4-a3cf-d60cf5917cf8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stub_response_payload_json</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>stub_response_payload_json</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</model>
+        <model_id>83ae59c91bb434504b33a825604bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>97cf990d1bb434504b33a825604bcb39</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_83ae59c91bb434504b33a825604bcb74^sys_idNOT IN53cf990d1bb434504b33a825604bcb0b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input_json_to_stub</element>
+        <help/>
+        <hint/>
+        <label>input_json_to_stub</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_83ae59c91bb434504b33a825604bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:29</sys_created_on>
+        <sys_id>53cf990d1bb434504b33a825604bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74^sys_idNOT IN13cf990d1bb434504b33a825604bcb38,17cf990d1bb434504b33a825604bcb3e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stub_response_code</element>
+        <help/>
+        <hint/>
+        <label>stub_response_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>13cf990d1bb434504b33a825604bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stub_response_payload_json</element>
+        <help/>
+        <hint/>
+        <label>stub_response_payload_json</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_83ae59c91bb434504b33a825604bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:51:30</sys_created_on>
+        <sys_id>17cf990d1bb434504b33a825604bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:51:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=83ae59c91bb434504b33a825604bcb74^sys_idNOT IN2d59a9811bf434504b33a825604bcb9e"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2d59a9811bf434504b33a825604bcb9e","name":"plan"}}</plan>
+        <snapshot>a159a9811bf434504b33a825604bcb43</snapshot>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d59a9811bf434504b33a825604bcb9e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:10</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>simulate external call</description>
+        <internal_name>mso_rest_apih_to_stub</internal_name>
+        <label_cache>[{"name":"{{action.input_json}}","label":"action➛input_json","type":"action","ref":""},{"name":"{{action.input_json_to_stub}}","label":"action➛input_json_to_stub","type":"action","ref":""},{"name":"{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>MSO REST APIH to stub</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="MSO REST APIH to stub">83ae59c91bb434504b33a825604bcb74</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1159a9811bf434504b33a825604bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1159a9811bf434504b33a825604bcb0d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1159a9811bf434504b33a825604bcb0d"/>
+    <sys_element_mapping action="delete_multiple" query="id=1159a9811bf434504b33a825604bcb0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stub_response_code</field>
+        <id>1159a9811bf434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>2d59a9811bf434504b33a825604bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</table>
+        <value>{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stub_response_payload_json</field>
+        <id>1159a9811bf434504b33a825604bcb0d</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>6959a9811bf434504b33a825604bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</table>
+        <value>{{step[c0684b1e-e728-4dc7-b456-3d28301a556c].response_body}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1159a9811bf434504b33a825604bcb0d^sys_idNOT IN1559a9811bf434504b33a825604bcb17"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MSO REST APIH to stub">1159a9811bf434504b33a825604bcb0d</action>
+        <cid>c0684b1e-e728-4dc7-b456-3d28301a556c</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>1559a9811bf434504b33a825604bcb17</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1559a9811bf434504b33a825604bcb17"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>1959a9811bf434504b33a825604bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <value>https://5b1425fc-892a-4672-a11c-148fc71de86a.mock.pstmn.io</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>1d59a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <value>/so-bpmn/postSICreateRequest</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>5559a9811bf434504b33a825604bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>5959a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>9159a9811bf434504b33a825604bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>9d59a9811bf434504b33a825604bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>d959a9811bf434504b33a825604bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>1559a9811bf434504b33a825604bcb17</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>dd59a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1559a9811bf434504b33a825604bcb17"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>1559a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>5159a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>dd59a9811bf434504b33a825604bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.input_json_to_stub}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>9d59a9811bf434504b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>1959a9811bf434504b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>d959a9811bf434504b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>9159a9811bf434504b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>d559a9811bf434504b33a825604bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>1559a9811bf434504b33a825604bcb17</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>5559a9811bf434504b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=1159a9811bf434504b33a825604bcb0d^sys_idNOT IN5959a9811bf434504b33a825604bcb0f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=16af39f9-a156-431e-8207-6976f9ab1df8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>input_json_to_stub</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>input_json_to_stub</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO REST APIH to stub">1159a9811bf434504b33a825604bcb0d</model>
+        <model_id>1159a9811bf434504b33a825604bcb0d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_1159a9811bf434504b33a825604bcb0d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>5959a9811bf434504b33a825604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=1159a9811bf434504b33a825604bcb0d^sys_idNOT IN9159a9811bf434504b33a825604bcb30,9559a9811bf434504b33a825604bcb29"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=ed40ce95-eaf4-48b4-a3cf-d60cf5917cf8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stub_response_payload_json</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>stub_response_payload_json</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO REST APIH to stub">1159a9811bf434504b33a825604bcb0d</model>
+        <model_id>1159a9811bf434504b33a825604bcb0d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>9159a9811bf434504b33a825604bcb30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=fc5d48bf-36ae-4359-a6ab-04aeff72966f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stub_response_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>stub_response_code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO REST APIH to stub">1159a9811bf434504b33a825604bcb0d</model>
+        <model_id>1159a9811bf434504b33a825604bcb0d</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>9559a9811bf434504b33a825604bcb29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1159a9811bf434504b33a825604bcb0d^sys_idNOT IN1159a9811bf434504b33a825604bcb15"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>input_json_to_stub</element>
+        <help/>
+        <hint/>
+        <label>input_json_to_stub</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1159a9811bf434504b33a825604bcb0d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:08</sys_created_on>
+        <sys_id>1159a9811bf434504b33a825604bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d^sys_idNOT IN1d59a9811bf434504b33a825604bcb2e,2159a9811bf434504b33a825604bcb35"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stub_response_code</element>
+        <help/>
+        <hint/>
+        <label>stub_response_code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>1d59a9811bf434504b33a825604bcb2e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stub_response_payload_json</element>
+        <help/>
+        <hint/>
+        <label>stub_response_payload_json</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1159a9811bf434504b33a825604bcb0d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 16:33:09</sys_created_on>
+        <sys_id>2159a9811bf434504b33a825604bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 16:33:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>83ae59c91bb434504b33a825604bcb74</sys_id>
+        <latest_snapshot>1159a9811bf434504b33a825604bcb0d</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>mso_rest_to_local_docker</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>MSO REST to local docker</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:03:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3159e7f1b813090842fa790604bcbdf</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>MSO REST to local docker</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b3159e7f1b813090842fa790604bcbdf</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:04:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b3159e7f1b813090842fa790604bcbdf"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b3159e7f1b813090842fa790604bcbdf"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=b3159e7f1b813090842fa790604bcbdf^sys_idNOT IN9dc71a331bc13090842fa790604bcbab"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MSO REST to local docker">b3159e7f1b813090842fa790604bcbdf</action>
+        <cid>bf681384-f6c7-41ae-bd64-fd4d7318a7c9</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>9dc71a331bc13090842fa790604bcbab</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:04:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9dc71a331bc13090842fa790604bcbab"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>19c71a331bc13090842fa790604bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:15:01</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>55c71a331bc13090842fa790604bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:15:01</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:57:34</sys_created_on>
+        <sys_id>6081a2b71bc13090842fa790604bcb32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:57:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>91c71a331bc13090842fa790604bcbca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:57:34</sys_updated_on>
+        <value>auto_select</value>
+        <variable display_value="MID Selection">a7d3fa4b73131010791f94596bf6a79a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>9dc71a331bc13090842fa790604bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:15:01</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:52:30</sys_created_on>
+        <sys_id>a250a6771bc13090842fa790604bcbbe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 16:53:57</sys_updated_on>
+        <value>http://ILCDTL01DM4252.ITServices.sbc.com:10000</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:57:34</sys_created_on>
+        <sys_id>ac81a2b71bc13090842fa790604bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:04:32</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"x-onap-requestid","value":"123456"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>d9c71a331bc13090842fa790604bcbca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 20:00:27</sys_updated_on>
+        <value>84d122f31bc13090842fa790604bcbd4</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9dc71a331bc13090842fa790604bcbab</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:52:30</sys_created_on>
+        <sys_id>ee50a6771bc13090842fa790604bcbbd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 16:53:57</sys_updated_on>
+        <value>/sim/commonModelElements/instance~nfValuesInstance~0.0/getInstanceTableRows?nfNamingCode=evn&amp;nfType=Application%2520server%2520&amp;nfRole=vMVM&amp;nfFunction=METASWITCH-VOICEMAIL</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9dc71a331bc13090842fa790604bcbab^sys_idNOT IN6a50a6771bc13090842fa790604bcbbb,99c71a331bc13090842fa790604bcbc6"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>mid_server</input_name>
+        <instance>9dc71a331bc13090842fa790604bcbab</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":false}}</script>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:52:30</sys_created_on>
+        <sys_id>6a50a6771bc13090842fa790604bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:52:30</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>use_mid</input_name>
+        <instance>9dc71a331bc13090842fa790604bcbab</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"use_mid":{"scriptActive":false}}</script>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:15:01</sys_created_on>
+        <sys_id>99c71a331bc13090842fa790604bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:15:01</sys_updated_on>
+    </sys_hub_input_scripts>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
+    <ecc_agent_application action="INSERT_OR_UPDATE">
+        <default_mid_server display_value="dm4252_mid_server">4e03567f1b813090842fa790604bcb77</default_mid_server>
+        <included_in_app_all>true</included_in_app_all>
+        <name>MSO-MID-dm4252</name>
+        <sys_class_name>ecc_agent_application</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:59:21</sys_created_on>
+        <sys_id>84d122f31bc13090842fa790604bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MSO-MID-dm4252</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>ecc_agent_application_84d122f31bc13090842fa790604bcbd4</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 19:59:21</sys_updated_on>
+    </ecc_agent_application>
+</record_update>

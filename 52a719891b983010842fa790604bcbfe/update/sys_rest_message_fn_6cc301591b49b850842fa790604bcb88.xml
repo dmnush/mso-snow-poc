@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="mso_basic">281261d11b89bc504b33a825604bcb26</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>test docker db adapter</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>test MSO PostMan [ test docker db adapter ]</qualified_name>
+        <rest_endpoint>http://130.10.128.38:9600/activeRequests/search/countByRequestType?requestType=service-request</rest_endpoint>
+        <rest_message display_value="test MSO PostMan">312e99681be478104b33a825604bcbb0</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-28 18:45:37</sys_created_on>
+        <sys_id>6cc301591b49b850842fa790604bcb88</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test docker db adapter</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_rest_message_fn_6cc301591b49b850842fa790604bcb88</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-28 20:57:19</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

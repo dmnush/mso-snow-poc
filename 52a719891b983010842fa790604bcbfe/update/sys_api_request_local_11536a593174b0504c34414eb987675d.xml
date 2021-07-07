@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_request_local">
+    <sys_api_request_local action="INSERT_OR_UPDATE">
+        <api_collection/>
+        <api_operation display_value="POST test">92f31aac1b6878104b33a825604bcb90</api_operation>
+        <description/>
+        <name>Generated Request for b555cee01b6878104b33a825604bcb0f</name>
+        <required>false</required>
+        <sys_class_name>sys_api_request_local</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-16 15:25:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>11536a593174b0504c34414eb987675d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>92f31aac1b6878104b33a825604bcb90</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_api_request_local_11536a593174b0504c34414eb987675d</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-16 15:25:01</sys_updated_on>
+    </sys_api_request_local>
+</record_update>

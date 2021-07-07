@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4e03567f1b813090842fa790604bcb77</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent">
+    <ecc_agent action="INSERT_OR_UPDATE">
+        <application_experience>cannot_determine</application_experience>
+        <application_experience_status>cannot_determine</application_experience_status>
+        <home_dir>C:\snow\mid\ServiceNow MID Server dm4252_mid_server\agent</home_dir>
+        <host_cpu_core_count>1</host_cpu_core_count>
+        <host_cpu_speed>1608</host_cpu_speed>
+        <host_disk_size>471.6 GB</host_disk_size>
+        <host_disk_size_bytes>506333229056</host_disk_size_bytes>
+        <host_glibc_version/>
+        <host_hyperthreading>true</host_hyperthreading>
+        <host_name>ILCDTL01DM4252.ITServices.sbc.com</host_name>
+        <host_os_address_width>64-bit</host_os_address_width>
+        <host_os_distribution>Microsoft Windows 10 Enterprise</host_os_distribution>
+        <host_os_version>10.0.18363</host_os_version>
+        <host_powershell_version>5.1.18362.1593</host_powershell_version>
+        <host_total_ram>32542</host_total_ram>
+        <host_type>Windows</host_type>
+        <ip_address>135.70.161.221</ip_address>
+        <is_running_using_system>true</is_running_using_system>
+        <is_using_custom_cert>false</is_using_custom_cert>
+        <is_using_mutual_auth>false</is_using_mutual_auth>
+        <jvm_version>11.0.8-sncmid1</jvm_version>
+        <last_refreshed>2021-07-06 21:06:35</last_refreshed>
+        <mid_java_command_dir>C:\snow\mid\ServiceNow MID Server dm4252_mid_server\agent\jre\bin\java.exe</mid_java_command_dir>
+        <mid_maximum_ram>1024</mid_maximum_ram>
+        <name>dm4252_mid_server</name>
+        <network>135.70.160.0/20</network>
+        <nmap_version/>
+        <public_key>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlEXDo7Y0YWbpfGPVwJPyJEBusH/rsAYlJV9LZroEg3yNeIcWclqP7gL+UxyYD4xVCBETyC3RGB7xxSl0iSOReZgmpEm7JOc626d9VoMTNl18oIQAjrR1fkKI9D4RbWGh4UTcsBz1I9PmkL6ljlSNWE6QL6E2VL46RyEgjVONDMGyGDP1e3LFbUuTs+N0ssFo4XaV2NqoJxbQwZ2mOSLWkr9nS3WG4Azck+m8OA3bPSlTuUHlVsMoFwKoWLfgZsp2bocdaD25TOrCG6FOa5WfPMBVBOy2KpJ5buv5FSm28z/EerQ3Qy6Axn/3+Z04A0NoMJtrdJ0gp/++pl3C1uVmMwIDAQAB</public_key>
+        <router>135.70.160.1</router>
+        <started>2021-07-06 21:05:34</started>
+        <status>Down</status>
+        <stopped>2021-07-06 21:06:46</stopped>
+        <sys_created_by>mso_mid_user</sys_created_by>
+        <sys_created_on>2021-07-06 18:54:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e03567f1b813090842fa790604bcb77</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>mso_mid_user</sys_updated_by>
+        <sys_updated_on>2021-07-06 21:06:46</sys_updated_on>
+        <unresolved_issues>0</unresolved_issues>
+        <used_installer>true</used_installer>
+        <user_name>mso_mid_user</user_name>
+        <validated>true</validated>
+        <version>quebec-12-09-2020__patch3-04-14-2021_04-29-2021_2308</version>
+        <win_domain/>
+    </ecc_agent>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-06 19:14:51</sys_created_on>
+        <sys_id>0fb7deff1b813090842fa790604bcbb8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>dm4252_mid_server</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_metadata_link_0fb7deff1b813090842fa790604bcbb8</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-06 21:09:59</sys_updated_on>
+        <tablename>ecc_agent</tablename>
+    </sys_metadata_link>
+</record_update>

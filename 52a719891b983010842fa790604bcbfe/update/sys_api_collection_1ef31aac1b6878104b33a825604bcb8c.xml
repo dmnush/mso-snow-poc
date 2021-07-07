@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_collection">
+    <sys_api_collection action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_path>/api/x_att2_mso_poc_2/mso_create_si_apih</base_path>
+        <description/>
+        <display_name>Rest trigger for flow id=b555cee01b6878104b33a825604bcb0f - v1</display_name>
+        <name>Rest trigger for flow id=b555cee01b6878104b33a825604bcb0f</name>
+        <sys_class_name>sys_api_collection</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-01 20:06:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ef31aac1b6878104b33a825604bcb8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rest trigger for flow id=b555cee01b6878104b33a825604bcb0f - v1</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_api_collection_1ef31aac1b6878104b33a825604bcb8c</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-02 16:47:15</sys_updated_on>
+        <version>v1</version>
+    </sys_api_collection>
+</record_update>

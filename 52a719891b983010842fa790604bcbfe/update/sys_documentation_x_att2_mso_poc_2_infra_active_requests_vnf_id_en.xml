@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vnf_id" label="VNF_ID" language="en" table="x_att2_mso_poc_2_infra_active_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vnf_id</element>
+            <help/>
+            <hint/>
+            <label>VNF_ID</label>
+            <language>en</language>
+            <name>x_att2_mso_poc_2_infra_active_requests</name>
+            <plural>VNF_IDs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>dm4252</sys_created_by>
+            <sys_created_on>2021-05-21 18:54:51</sys_created_on>
+            <sys_id>290a950d1b983010842fa790604bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>VNF_ID</sys_name>
+            <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+            <sys_update_name>sys_documentation_x_att2_mso_poc_2_infra_active_requests_vnf_id_en</sys_update_name>
+            <sys_updated_by>dm4252</sys_updated_by>
+            <sys_updated_on>2021-05-21 18:54:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

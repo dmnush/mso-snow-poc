@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD2d9a5d2dcdc1fc50d965e1d50fd1850c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>52a719891b983010842fa790604bcbfe</scope_name>
+        <serialized_content>{"FlowDesigner:FD2d9a5d2dcdc1fc50d965e1d50fd1850c":{"x_transactionid":"String","x_transactionid.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"x-transactionid\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FD2d9a5d2dcdc1fc50d965e1d50fd1850c.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD2d9a5d2dcdc1fc50d965e1d50fd1850c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":null,\"label\":\"Request Headers\",\"mandatory\":\"false\",\"order\":\"120\",\"max_length\":\"0\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-29 15:01:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed9a5d2d1bc1fc504b33a825604bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD2d9a5d2dcdc1fc50d965e1d50fd1850c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_complex_object_ed9a5d2d1bc1fc504b33a825604bcb0c</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-29 15:01:22</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

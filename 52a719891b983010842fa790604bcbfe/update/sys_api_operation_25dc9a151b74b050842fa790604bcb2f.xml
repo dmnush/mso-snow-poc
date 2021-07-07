@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
+    <sys_api_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_collection display_value="Rest trigger for flow id=7eafda0d1b3c7050842fa790604bcbd8 - v1">61dc9a151b74b050842fa790604bcb2b</api_collection>
+        <api_request display_value="Generated Request for 7eafda0d1b3c7050842fa790604bcbd8">64278f80cf5d30909f79c1aee7700817</api_request>
+        <api_security_scheme/>
+        <deprecated>false</deprecated>
+        <description/>
+        <execute_asynchronously>true</execute_asynchronously>
+        <execution_record>7eafda0d1b3c7050842fa790604bcbd8</execution_record>
+        <execution_type>sys_hub_flow</execution_type>
+        <http_method>post</http_method>
+        <name>POST test</name>
+        <operation_id/>
+        <path>test</path>
+        <sys_class_name>sys_api_operation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-16 14:56:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25dc9a151b74b050842fa790604bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST test</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_api_operation_25dc9a151b74b050842fa790604bcb2f</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-07 17:20:26</sys_updated_on>
+    </sys_api_operation>
+</record_update>

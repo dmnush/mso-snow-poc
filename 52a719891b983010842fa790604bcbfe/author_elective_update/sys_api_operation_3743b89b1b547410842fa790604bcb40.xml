@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
+    <sys_api_operation action="DELETE">
+        <active>true</active>
+        <api_collection display_value="Rest trigger for flow id=5837a9c11bd83010842fa790604bcbba - v1">f743b89b1b547410842fa790604bcb3c</api_collection>
+        <api_request display_value="Generated Request for 5837a9c11bd83010842fa790604bcbba">cc94e1ac63e47810e880e4e63bccf3c9</api_request>
+        <api_security_scheme/>
+        <deprecated>false</deprecated>
+        <description/>
+        <execute_asynchronously>true</execute_asynchronously>
+        <execution_record>5837a9c11bd83010842fa790604bcbba</execution_record>
+        <execution_type>sys_hub_flow</execution_type>
+        <http_method>post</http_method>
+        <name>POST test</name>
+        <operation_id/>
+        <path>test</path>
+        <sys_class_name/>
+        <sys_created_by/>
+        <sys_created_on/>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>3743b89b1b547410842fa790604bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST test</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope/>
+        <sys_update_name>sys_api_operation_3743b89b1b547410842fa790604bcb40</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-01 16:39:38</sys_updated_on>
+    </sys_api_operation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>54c4e33bdb182810d5c911f84896196b</instance_id>
+        <instance_name>attentpro2poc</instance_name>
+        <name>sys_api_operation_3743b89b1b547410842fa790604bcb40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation"><sys_api_operation action="INSERT_OR_UPDATE"><active>true</active><api_collection display_value="Rest trigger for flow id=5837a9c11bd83010842fa790604bcbba - v1">f743b89b1b547410842fa790604bcb3c</api_collection><api_request display_value="Generated Request for 5837a9c11bd83010842fa790604bcbba">cc94e1ac63e47810e880e4e63bccf3c9</api_request><api_security_scheme/><deprecated>false</deprecated><description/><execute_asynchronously>true</execute_asynchronously><execution_record>5837a9c11bd83010842fa790604bcbba</execution_record><execution_type>sys_hub_flow</execution_type><http_method>post</http_method><name>POST test</name><operation_id/><path>test</path><sys_class_name/><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>3743b89b1b547410842fa790604bcb40</sys_id><sys_mod_count>0</sys_mod_count><sys_name>POST test</sys_name><sys_package/><sys_policy/><sys_scope/><sys_update_name>sys_api_operation_3743b89b1b547410842fa790604bcb40</sys_update_name><sys_updated_by>dm4252</sys_updated_by><sys_updated_on>2021-06-01 16:39:38</sys_updated_on></sys_api_operation></record_update>]]></payload>
+        <payload_hash>-898357842</payload_hash>
+        <record_name>POST test</record_name>
+        <reverted_from/>
+        <source>d2a759891b983010842fa790604bcb00</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-01 16:39:39</sys_created_on>
+        <sys_id>c894e1ac1be478104b33a825604bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179c871e9020000001</sys_recorded_at>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-01 16:39:39</sys_updated_on>
+        <type>API Operation</type>
+        <update_guid>4494e1ac73e47810d258ab0736260be0</update_guid>
+        <update_guid_history>4494e1ac73e47810d258ab0736260be0:-898357842,8094e1ac93e4781067d48db71c3d41d8:434068056,7961a51b4dd47410edf4c37e678de040:907002492,7561a51b48d4741028a8213b1aa7023a:-2055538906,ca11611b8ad47410453c1ef68bb82760:-721331376,8611611bc6d47410364686169e3e2d5a:-509153690,c38d5d576bd47410d06a80b02790d679:2018470121,cf8d5d57d2d4741060fb5c4944187d72:-2064319489,c84a1dd32fd4741089e3177d56b84348:-856512867,c44a1dd3e1d4741049b43df469e11742:-644335181,c569dd9345d47410cffba13ada4558b5:-1562639856,4969dd932fd474107b9011791ebe5eae:-1350462170,10081d536bd47410009c92fd453b93fe:88522119,d8081d53c2d47410ad91a0ad98ff95ea:1420948017,818495df23947410de2cf0526d274041:-2078484276,8d8495df049474103614a9c0d76f0d3a:-746058378,3823d19f149474101c512af00e737fe9:1413555457,3423d19f3f947410aaff932401e124e3:-1548985941,6981915fce94741019345d0df0e1142b:2029304157,6581915f31947410d99835d6d0f9c725:-933237241,d47f0ddb559474105cc25ce246f54b4b:-1553839068,587f0ddb0e947410cf78a856f3986c44:-221413170,b9bc0d5b1d9474106733ef017cc5cbc8:2062495319,b5bc0d5b869474101921c6f2931b8bc2:-900046079,9f7b8d1b3b947410d4d1c2003df0d3e4:1891408290,db7b8d1b109474105725919cdf9182dd:-1071133108,4b7cb01388947410e03bab1e977448ae:-849209838,8b7cb0134c947410ba8357f3df023ba7:483216060,f343b89b04547410f1cee6d73f799d4b:-1557980564,bb43b89b4054741070a9e9e4fdf59742:-514048558</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-06-15 15:38:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_operation">sys_api_operation</sys_db_object>
+        <sys_id>0700c4da17584ff2805bbfa372b1a104</sys_id>
+        <sys_metadata>3743b89b1b547410842fa790604bcb40</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST test</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_scope_delete display_value="">1ced43a95296401884b9786d7fa0d710</sys_scope_delete>
+        <sys_update_name>sys_api_operation_3743b89b1b547410842fa790604bcb40</sys_update_name>
+        <sys_update_version display_value="sys_api_operation_3743b89b1b547410842fa790604bcb40">c894e1ac1be478104b33a825604bcbe0</sys_update_version>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-06-15 15:38:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

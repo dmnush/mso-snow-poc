@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ticket_tab_configuration">
+    <ticket_tab_configuration action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <parent display_value="change_task">5cf4a1661bc970904b33a825604bcb0e</parent>
+        <sys_class_name>ticket_tab_configuration</sys_class_name>
+        <sys_created_by>Cb645j</sys_created_by>
+        <sys_created_on>2021-07-02 18:21:29</sys_created_on>
+        <sys_id>5625ad261bc970904b33a825604bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>ticket_tab_configuration_5625ad261bc970904b33a825604bcbc7</sys_update_name>
+        <sys_updated_by>Cb645j</sys_updated_by>
+        <sys_updated_on>2021-07-02 18:21:29</sys_updated_on>
+        <tab_name>Activity</tab_name>
+        <table>change_task</table>
+        <type>activity</type>
+        <visible/>
+        <widget/>
+        <widget_param/>
+    </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=5625ad261bc970904b33a825604bcbc7"/>
+</record_update>
