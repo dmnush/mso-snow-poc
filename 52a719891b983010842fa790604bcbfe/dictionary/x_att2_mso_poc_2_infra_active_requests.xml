@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="infra_active_requests" max_length="40" name="x_att2_mso_poc_2_infra_active_requests" sizeclass="19" type="collection">
+    <element label="infra_active_requests" max_length="40" name="x_att2_mso_poc_2_infra_active_requests" sizeclass="20" type="collection">
         <element attributes="edge_encryption_enabled=true" label="AIC_NODE_CLLI" max_length="40" name="aic_node_clli" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="CALLBACK_URL" max_length="40" name="callback_url" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="CLIENT_REQUEST_ID" max_length="40" name="client_request_id" type="string"/>

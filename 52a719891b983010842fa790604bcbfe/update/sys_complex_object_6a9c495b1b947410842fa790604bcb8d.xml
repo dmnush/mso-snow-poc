@@ -4,14 +4,14 @@
         <name>FDa69c495bb3947410122289f2b026af8d</name>
         <namespace>FlowDesigner</namespace>
         <scope_name>52a719891b983010842fa790604bcbfe</scope_name>
-        <serialized_content>{"FlowDesigner:FDa69c495bb3947410122289f2b026af8d":{"dmElement":{"u_am_status":"String","u_am_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"u_am_status\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"3b886c2c-3019-4abd-b0c0-06502f9ff9bc\"}"}},"dmElement.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"dmElement\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"2aa7bde9-b555-4373-a05a-2aff74b7fb93\"}"},"u_request_type":"String","u_request_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"u_request_type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"167a34cf-21ba-480d-bd8a-ef687608a5a2\"}"}},"FlowDesigner:FDa69c495bb3947410122289f2b026af8d.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa69c495bb3947410122289f2b026af8d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"9b0f8f96-5a5d-4aa6-b055-60cb0151be43\"}"}}</serialized_content>
+        <serialized_content>{"FlowDesigner:FDa69c495bb3947410122289f2b026af8d":{"dmElement":{"u_am_status":"String","u_am_status.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"u_am_status\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"24c16cab-68e6-4fd8-a199-8bd449da5617\"}"}},"dmElement.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"dmElement\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"1cdeb0d4-edb0-4832-81f1-3a95e84ea2ab\"}"},"u_request_type":"String","u_request_type.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"u_request_type\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"00c4d4d2-2870-4bcc-8e24-d069c4abea7b\"}"}},"FlowDesigner:FDa69c495bb3947410122289f2b026af8d.$type_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa69c495bb3947410122289f2b026af8d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"default_value\":\"\",\"label\":\"root\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"65000\",\"uiUniqueId\":\"9b0f8f96-5a5d-4aa6-b055-60cb0151be43\"}"}}</serialized_content>
         <sys_class_name>sys_complex_object</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-05-28 17:42:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6a9c495b1b947410842fa790604bcb8d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>FDa69c495bb3947410122289f2b026af8d</sys_name>
         <sys_overrides/>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
@@ -19,7 +19,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name>sys_complex_object_6a9c495b1b947410842fa790604bcb8d</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-05-28 18:35:07</sys_updated_on>
+        <sys_updated_on>2021-07-08 21:10:55</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
 </record_update>

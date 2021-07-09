@@ -10,7 +10,7 @@
         <copied_from>a9b424931b547410842fa790604bcb84</copied_from>
         <copied_from_name>MSO json parse action</copied_from_name>
         <description>Parse JSON paylod of client's request to APIH and output JSON payload to be sent to BPMN</description>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>mso_json_parse_action_apih_input_si_create</internal_name>
         <label_cache>[{"name":"{{action.event}}","label":"action➛Event","type":"action","ref":""},{"name":"{{action.record}}","label":"action➛Record","type":"action","ref":""},{"name":"{{action.event_params}}","label":"action➛Event Params","type":"action","ref":""},{"name":"{{action.incoming}}","label":"action➛incoming","type":"action","ref":""},{"name":"{{step[d8c3f77c-a551-485b-b6c1-50cca630ef7f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].variable.variable_child1}}","label":"step➛JSON Parser step➛variable➛variable_child1","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.u_am_status}}","label":"step➛JSON Parser step➛root➛u_am_status","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.u_request_type}}","label":"step➛JSON Parser step➛root➛u_request_type","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails}}","label":"step➛JSON Parser step➛root➛requestDetails","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.requestInfo.instanceName}}","label":"step➛JSON Parser step➛root➛requestDetails➛requestInfo➛instanceName","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.modelInfo.modelInvariantId}}","label":"step➛JSON Parser step➛root➛requestDetails➛modelInfo➛modelInvariantId","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.modelInfo.modelName}}","label":"step➛JSON Parser step➛root➛requestDetails➛modelInfo➛modelName","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.modelInfo.modelVersion}}","label":"step➛JSON Parser step➛root➛requestDetails➛modelInfo➛modelVersion","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.modelInfo.modelVersionId}}","label":"step➛JSON Parser step➛root➛requestDetails➛modelInfo➛modelVersionId","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.requestInfo.productFamilyId}}","label":"step➛JSON Parser step➛root➛requestDetails➛requestInfo➛productFamilyId","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.requestInfo.source}}","label":"step➛JSON Parser step➛root➛requestDetails➛requestInfo➛source","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.owningEntity.owningEntityId}}","label":"step➛JSON Parser step➛root➛requestDetails➛owningEntity➛owningEntityId","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestDetails.owningEntity.owningEntityName}}","label":"step➛JSON Parser step➛root➛requestDetails➛owningEntity➛owningEntityName","type":"step","ref":""}]</label_cache>
         <master_snapshot>e53d8e281b6878104b33a825604bcb23</master_snapshot>
@@ -18,14 +18,14 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:04:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10b58ee01b6878104b33a825604bcb03</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name>MSO json parse APIH input SI create</sys_name>
         <sys_overrides/>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_10b58ee01b6878104b33a825604bcb03</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-29 13:02:21</sys_updated_on>
+        <sys_updated_on>2021-07-09 19:59:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -528,17 +528,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="MSO json parse APIH input SI create">10b58ee01b6878104b33a825604bcb03</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"3d3d8e281b6878104b33a825604bcba9","name":"plan"}}</plan>
-        <snapshot>fb52e69d1b0db850842fa790604bcb0a</snapshot>
+        <snapshot>639ebdf81bd1f4904b33a825604bcb25</snapshot>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:37:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3d3d8e281b6878104b33a825604bcba9</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-29 01:36:32</sys_updated_on>
+        <sys_updated_on>2021-07-09 19:59:03</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -620,10 +620,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:37:14</sys_created_on>
         <sys_id>6d3d8e281b6878104b33a825604bcb2d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-16 15:21:16</sys_updated_on>
+        <sys_updated_on>2021-07-09 19:59:02</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6d3d8e281b6878104b33a825604bcb2d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -634,10 +634,46 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:37:14</sys_created_on>
         <sys_id>2d3d8e281b6878104b33a825604bcb3b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-16 15:21:16</sys_updated_on>
-        <value>{"requestDetails":{"modelInfo":{"modelInvariantId":"b16a9398-ffa3-4041-b78c-2956b8ad9c7b","modelType":"service","modelName":"Vf zrdm5bpxmc02092017-Service","modelVersion":"1","modelVersionId":"bad955c3-29b2-4a27-932e-28e942cc6480","modelUuid":"bad955c3-29b2-4a27-932e-28e942cc6480","modelInvariantUuid":"b16a9398-ffa3-4041-b78c-2956b8ad9c7b"},"requestInfo":{"productFamilyId":"a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb","source":"VID","instanceName":"Robot_SI_For_VolumeGroup","suppressRollback":false,"requestorId":"ROBOT"},"subscriberInfo":{"globalSubscriberId":"Robot_Test_Subscriber_ID","subscriberName":"Robot_Test_Subscriber_ID"},"requestParameters":{"subscriptionServiceType":"Robot_Test_Service_Type","aLaCarte":true,"usePreload":true,"testApi":"GR_API"},"project":{"projectName":"GR_API_OE_MSO_Test4000"},"owningEntity":{"owningEntityId":"c3f57fa8-ac7d-11e8-98d0-529269fb1459","owningEntityName":"IP-COMMUNICATIONS"}}}</value>
+        <sys_updated_on>2021-07-09 19:59:02</sys_updated_on>
+        <value>{&#13;
+	"requestDetails": {&#13;
+		"modelInfo": {&#13;
+			"modelInvariantId": "b16a9398-ffa3-4041-b78c-2956b8ad9c7b",&#13;
+			"modelType": "service",&#13;
+			"modelName": "Vf zrdm5bpxmc02092017-Service",&#13;
+			"modelVersion": "1",&#13;
+			"modelVersionId": "bad955c3-29b2-4a27-932e-28e942cc6480",&#13;
+			"modelUuid": "bad955c3-29b2-4a27-932e-28e942cc6480",&#13;
+			"modelInvariantUuid": "b16a9398-ffa3-4041-b78c-2956b8ad9c7b"&#13;
+		},&#13;
+		"requestInfo": {&#13;
+			"productFamilyId": "a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb",&#13;
+			"source": "VID",&#13;
+			"instanceName": "Robot_SI_For_VolumeGroup",&#13;
+			"suppressRollback": false,&#13;
+			"requestorId": "ROBOT"&#13;
+		},&#13;
+		"subscriberInfo": {&#13;
+			"globalSubscriberId": "Robot_Test_Subscriber_ID",&#13;
+			"subscriberName": "Robot_Test_Subscriber_ID"&#13;
+		},&#13;
+		"requestParameters": {&#13;
+			"subscriptionServiceType": "Robot_Test_Service_Type",&#13;
+			"aLaCarte": true,&#13;
+			"usePreload": true,&#13;
+			"testApi": "GR_API"&#13;
+		},&#13;
+		"project": {&#13;
+			"projectName": "GR_API_OE_MSO_Test4000"&#13;
+		},&#13;
+		"owningEntity": {&#13;
+			"owningEntityId": "c3f57fa8-ac7d-11e8-98d0-529269fb1459",&#13;
+			"owningEntityName": "IP-COMMUNICATIONS"&#13;
+		}&#13;
+	}&#13;
+}</value>
         <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -662,10 +698,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-16 15:21:16</sys_created_on>
         <sys_id>9e72e6191b74b050842fa790604bcbe8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-16 15:21:16</sys_updated_on>
-        <value>structured</value>
+        <sys_updated_on>2021-07-09 19:59:02</sys_updated_on>
+        <value>raw</value>
         <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6d3d8e281b6878104b33a825604bcb2d"/>

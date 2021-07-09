@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a9b424931b547410842fa790604bcb84</copied_from>
+        <copied_from_name>MSO json parse action test</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>mso_json_update_gbbinput</internal_name>
+        <label_cache>[{"name":"{{action.event}}","label":"action➛Event","type":"action","ref":""},{"name":"{{action.record}}","label":"action➛Record","type":"action","ref":""},{"name":"{{action.event_params}}","label":"action➛Event Params","type":"action","ref":""},{"name":"{{action.incoming}}","label":"action➛gbbinput","type":"action","ref":""},{"name":"{{action.gbbinput}}","label":"action➛gbbinput","type":"action","ref":""},{"name":"{{action.field_name}}","label":"action➛field_name","type":"action","ref":""},{"name":"{{action.field_value}}","label":"action➛field_value","type":"action","ref":""},{"name":"{{step[d8c3f77c-a551-485b-b6c1-50cca630ef7f].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].variable}}","label":"step➛JSON Parser step➛variable","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].requestContext.variable_child1}}","label":"step➛JSON Parser step➛requestContext➛variable_child1","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.u_am_status}}","label":"step➛JSON Parser step➛root➛u_am_status","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.u_request_type}}","label":"step➛JSON Parser step➛root➛u_request_type","type":"step","ref":""},{"name":"{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].gbbinput}}","label":"step➛Script step➛gBBInput","type":"step","ref":""},{"name":"{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].var1}}","label":"step➛Script step➛var1","type":"step","ref":""},{"name":"{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].gbbinput_out}}","label":"step➛Script step➛gbbinput_out","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.root_child8}}","label":"step➛JSON Parser step➛root➛root_child8","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].root.requestContext.product-family-id}}","label":"step➛JSON Parser step➛root➛requestContext➛dgfdsgsdfgsdproduct-family-id","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].requestContext}}","label":"step➛JSON Parser step➛requestContext","type":"step","ref":""},{"name":"{{step[6f386e1c-993c-4eed-9572-c9591f55fb9b].requestContext.requestcontext_child1}}","label":"step➛JSON Parser step➛requestContext➛requestContext_child1","type":"step","ref":""}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>MSO json update gBBInput</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4503c341b11f4904b33a825604bcbea</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>MSO json update gBBInput</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_a4503c341b11f4904b33a825604bcbea</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 15:11:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=a4503c341b11f4904b33a825604bcbea"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a4503c341b11f4904b33a825604bcbea"/>
+    <sys_element_mapping action="delete_multiple" query="id=a4503c341b11f4904b33a825604bcbea"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>gbbinput</field>
+        <id>a4503c341b11f4904b33a825604bcbea</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>30507c341b11f4904b33a825604bcb40</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:19:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a4503c341b11f4904b33a825604bcbea</table>
+        <value>{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].gbbinput_out}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>var1</field>
+        <id>a4503c341b11f4904b33a825604bcbea</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>f0507c341b11f4904b33a825604bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a4503c341b11f4904b33a825604bcbea</table>
+        <value>{{step[671d33b8-1411-4b1e-9aae-8b0d150e9744].var1}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a4503c341b11f4904b33a825604bcbea^sys_idNOT INa4507c341b11f4904b33a825604bcb13,ec503c341b11f4904b33a825604bcbf6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</action>
+        <cid>671d33b8-1411-4b1e-9aae-8b0d150e9744</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>a4507c341b11f4904b33a825604bcb13</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 15:11:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4507c341b11f4904b33a825604bcb13"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4507c341b11f4904b33a825604bcb13</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>3c507c341b11f4904b33a825604bcb2d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 15:11:33</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+  function getObjects(obj, key, val, newVal) {
+    var newValue = newVal;
+    var objects = [];
+    for (var i in obj) {
+        if (!obj.hasOwnProperty(i)) continue;
+        if (typeof obj[i] == 'object') {
+            objects = objects.concat(getObjects(obj[i], key, val, newValue));
+        } else if (i == key &amp;&amp; obj[key] == val) {
+            obj[key] = 'qwe';
+        }
+    }
+    return obj;
+}
+  
+  var jsonObj = JSON.parse(inputs.gbbinput_in);
+  
+  var newJsonObj = getObjects(jsonObj, 'u_request_type', 'type2', 'type3');
+
+
+  outputs.gbbinput = newJsonObj;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>a4507c341b11f4904b33a825604bcb13</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>78507c341b11f4904b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4507c341b11f4904b33a825604bcb13"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>a4507c341b11f4904b33a825604bcb13</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>34507c341b11f4904b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_name</field>
+        <id>a4507c341b11f4904b33a825604bcb13</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:57:16</sys_created_on>
+        <sys_id>0b8978b81b11f4904b33a825604bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:57:16</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4507c341b11f4904b33a825604bcb13</table>
+        <value>{{action.field_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>gbbinput_in</field>
+        <id>a4507c341b11f4904b33a825604bcb13</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:19:30</sys_created_on>
+        <sys_id>79e074741b11f4904b33a825604bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:19:30</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4507c341b11f4904b33a825604bcb13</table>
+        <value>{{action.gbbinput}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_body</field>
+        <id>a4507c341b11f4904b33a825604bcb13</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>b4507c341b11f4904b33a825604bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_a4507c341b11f4904b33a825604bcb13</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>a4507c341b11f4904b33a825604bcb13</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>f4507c341b11f4904b33a825604bcb2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=a4507c341b11f4904b33a825604bcb13^sys_idNOT IN438978b81b11f4904b33a825604bcb5c,65e074741b11f4904b33a825604bcb7c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">a4507c341b11f4904b33a825604bcb13</model>
+        <model_id>a4507c341b11f4904b33a825604bcb13</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4507c341b11f4904b33a825604bcb13</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:57:16</sys_created_on>
+        <sys_id>438978b81b11f4904b33a825604bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:57:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbbinput_in</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">a4507c341b11f4904b33a825604bcb13</model>
+        <model_id>a4507c341b11f4904b33a825604bcb13</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_a4507c341b11f4904b33a825604bcb13</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:19:30</sys_created_on>
+        <sys_id>65e074741b11f4904b33a825604bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:19:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=a4507c341b11f4904b33a825604bcb13^sys_idNOT IN31e074741b11f4904b33a825604bcb8a"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=bc0095a9-de72-42ec-861b-7ff522778630</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbbinput_out</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>gbbinput_out</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">a4507c341b11f4904b33a825604bcb13</model>
+        <model_id>a4507c341b11f4904b33a825604bcb13</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_a4507c341b11f4904b33a825604bcb13</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:19:30</sys_created_on>
+        <sys_id>31e074741b11f4904b33a825604bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:19:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</action>
+        <cid>6f386e1c-993c-4eed-9572-c9591f55fb9b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>ec503c341b11f4904b33a825604bcbf6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ec503c341b11f4904b33a825604bcbf6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec503c341b11f4904b33a825604bcbf6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>24507c341b11f4904b33a825604bcb11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"requestContext","children":[{"name":"product-family-id","children":[],"type":"string","jpath":"$.requestContext.product-family-id","previewValue":"a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb"},{"name":"source","children":[],"type":"string","jpath":"$.requestContext.source","previewValue":"VID"},{"name":"requestor-id","children":[],"type":"string","jpath":"$.requestContext.requestor-id","previewValue":"ROBOT"},{"name":"subscription-service-type","children":[],"type":"string","jpath":"$.requestContext.subscription-service-type","previewValue":"Robot_Test_Service_Type"},{"name":"user-params","children":[],"type":"object","jpath":"$.requestContext.user-params","previewValue":""},{"name":"action","children":[],"type":"string","jpath":"$.requestContext.action","previewValue":"createInstance"},{"name":"callback-url","children":[],"type":"string","jpath":"$.requestContext.callback-url","previewValue":""},{"name":"service-uri","children":[],"type":"string","jpath":"$.requestContext.service-uri","previewValue":""},{"name":"mso-request-id","children":[],"type":"string","jpath":"$.requestContext.mso-request-id","previewValue":"876f3c0f-e351-4e7d-8920-59241c17056d"},{"name":"requestParameters","children":[{"name":"subscriptionServiceType","children":[],"type":"string","jpath":"$.requestContext.requestParameters.subscriptionServiceType","previewValue":"Robot_Test_Service_Type"},{"name":"aLaCarte","children":[],"type":"string","jpath":"$.requestContext.requestParameters.aLaCarte","previewValue":"true"},{"name":"usePreload","children":[],"type":"string","jpath":"$.requestContext.requestParameters.usePreload","previewValue":"true"}],"type":"object","jpath":"$.requestContext.requestParameters","previewValue":""},{"name":"configurationParameters","children":[{"name":"configurationParameters_string","children":[],"type":"string","jpath":"$.requestContext.configurationParameters[*]","previewValue":""}],"type":"array.string","jpath":"$.requestContext.configurationParameters[*]","previewValue":""},{"name":"application-id","children":[],"type":"string","jpath":"$.requestContext.application-id","previewValue":""},{"name":"is-helm","children":[],"type":"string","jpath":"$.requestContext.is-helm","previewValue":"false"}],"type":"object","jpath":"$.requestContext","previewValue":""},{"name":"orchContext","children":[{"name":"is-rollback-enabled","children":[],"type":"string","jpath":"$.orchContext.is-rollback-enabled","previewValue":"true"}],"type":"object","jpath":"$.orchContext","previewValue":""},{"name":"userInput","children":[],"type":"string","jpath":"$.userInput","previewValue":""},{"name":"cloudRegion","children":[{"name":"lcp-cloud-region-id","children":[],"type":"string","jpath":"$.cloudRegion.lcp-cloud-region-id","previewValue":""},{"name":"cloud-owner","children":[],"type":"string","jpath":"$.cloudRegion.cloud-owner","previewValue":""},{"name":"tenant-id","children":[],"type":"string","jpath":"$.cloudRegion.tenant-id","previewValue":""},{"name":"complex","children":[],"type":"string","jpath":"$.cloudRegion.complex","previewValue":""},{"name":"cloud-region-version","children":[],"type":"string","jpath":"$.cloudRegion.cloud-region-version","previewValue":""},{"name":"orchestration-disabled","children":[],"type":"string","jpath":"$.cloudRegion.orchestration-disabled","previewValue":""}],"type":"object","jpath":"$.cloudRegion","previewValue":""},{"name":"tenant","children":[{"name":"tenant-id","children":[],"type":"string","jpath":"$.tenant.tenant-id","previewValue":""},{"name":"tenant-name","children":[],"type":"string","jpath":"$.tenant.tenant-name","previewValue":""},{"name":"tenant-context","children":[],"type":"string","jpath":"$.tenant.tenant-context","previewValue":""}],"type":"object","jpath":"$.tenant","previewValue":""},{"name":"customer","children":[{"name":"global-customer-id","children":[],"type":"string","jpath":"$.customer.global-customer-id","previewValue":"Robot_Test_Subscriber_ID"},{"name":"subscriber-name","children":[],"type":"string","jpath":"$.customer.subscriber-name","previewValue":"Robot_Test_Subscriber_ID"},{"name":"subscriber-type","children":[],"type":"string","jpath":"$.customer.subscriber-type","previewValue":"CUST"},{"name":"subscriber-common-site-id","children":[],"type":"string","jpath":"$.customer.subscriber-common-site-id","previewValue":""},{"name":"service-subscription","children":[{"name":"service-type","children":[],"type":"string","jpath":"$.customer.service-subscription.service-type","previewValue":"Robot_Test_Service_Type"},{"name":"temp-ub-sub-account-id","children":[],"type":"string","jpath":"$.customer.service-subscription.temp-ub-sub-account-id","previewValue":""},{"name":"service-instances","children":[{"name":"service-instances_object","children":[{"name":"service-instance-id","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].service-instance-id","previewValue":"3af9eed7-9a19-425d-b299-f44662b86364"},{"name":"service-instance-name","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].service-instance-name","previewValue":"Robot_SI_For_VolumeGroup"},{"name":"orchestration-status","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].orchestration-status","previewValue":"ASSIGNED"},{"name":"owning-entity","children":[{"name":"owning-entity-id","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].owning-entity.owning-entity-id","previewValue":"c3f57fa8-ac7d-11e8-98d0-529269fb1459"},{"name":"owning-entity-name","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].owning-entity.owning-entity-name","previewValue":"IP-COMMUNICATIONS"}],"type":"object","jpath":"$.customer.service-subscription.service-instances[*].owning-entity","previewValue":""},{"name":"project","children":[{"name":"project-name","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].project.project-name","previewValue":"GR_API_OE_MSO_Test4000"}],"type":"object","jpath":"$.customer.service-subscription.service-instances[*].project","previewValue":""},{"name":"collection","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].collection","previewValue":""},{"name":"vnfs","children":[{"name":"vnfs_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].vnfs[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].vnfs[*]","previewValue":""},{"name":"pnfs","children":[{"name":"pnfs_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].pnfs[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].pnfs[*]","previewValue":""},{"name":"allotted-resources","children":[{"name":"allotted-resources_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].allotted-resources[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].allotted-resources[*]","previewValue":""},{"name":"networks","children":[{"name":"networks_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].networks[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].networks[*]","previewValue":""},{"name":"vpn-bonding-links","children":[{"name":"vpn-bonding-links_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].vpn-bonding-links[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].vpn-bonding-links[*]","previewValue":""},{"name":"vhn-portal-url","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].vhn-portal-url","previewValue":""},{"name":"service-instance-location-id","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].service-instance-location-id","previewValue":""},{"name":"selflink","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].selflink","previewValue":""},{"name":"metadata","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].metadata","previewValue":""},{"name":"configurations","children":[{"name":"configurations_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].configurations[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].configurations[*]","previewValue":""},{"name":"solution-info","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].solution-info","previewValue":""},{"name":"model-info-service-instance","children":[{"name":"model-customization-uuid","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-customization-uuid","previewValue":""},{"name":"model-invariant-uuid","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-invariant-uuid","previewValue":"b16a9398-ffa3-4041-b78c-2956b8ad9c7b"},{"name":"model-uuid","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-uuid","previewValue":"bad955c3-29b2-4a27-932e-28e942cc6480"},{"name":"model-version","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-version","previewValue":"1.0"},{"name":"model-instance-name","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-instance-name","previewValue":""},{"name":"model-name","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.model-name","previewValue":"Vf zrdm5bpxmc02092017-Service"},{"name":"description","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.description","previewValue":"Demo"},{"name":"created","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.created","previewValue":"Tue Jun 04 20:11:48 GMT 2019"},{"name":"service-type","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.service-type","previewValue":""},{"name":"service-role","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.service-role","previewValue":""},{"name":"service-function","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.service-function","previewValue":"General_Revenue-Bearing"},{"name":"environment-context","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.environment-context","previewValue":""},{"name":"workload-context","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.workload-context","previewValue":"Mobility"},{"name":"naming-policy","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.naming-policy","previewValue":"networkFunction"},{"name":"onap-generated-naming","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance.onap-generated-naming","previewValue":"false"}],"type":"object","jpath":"$.customer.service-subscription.service-instances[*].model-info-service-instance","previewValue":""},{"name":"instance-groups","children":[{"name":"instance-groups_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].instance-groups[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].instance-groups[*]","previewValue":""},{"name":"service-proxies","children":[{"name":"service-proxies_string","children":[],"type":"string","jpath":"$.customer.service-subscription.service-instances[*].service-proxies[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.service-subscription.service-instances[*].service-proxies[*]","previewValue":""}],"type":"object","jpath":"$.customer.service-subscription.service-instances[*]","previewValue":""}],"type":"array.object","jpath":"$.customer.service-subscription.service-instances[*]","previewValue":""}],"type":"object","jpath":"$.customer.service-subscription","previewValue":""},{"name":"customer-latitude","children":[],"type":"string","jpath":"$.customer.customer-latitude","previewValue":""},{"name":"customer-longitude","children":[],"type":"string","jpath":"$.customer.customer-longitude","previewValue":""},{"name":"vpn-bindings","children":[{"name":"vpn-bindings_string","children":[],"type":"string","jpath":"$.customer.vpn-bindings[*]","previewValue":""}],"type":"array.string","jpath":"$.customer.vpn-bindings[*]","previewValue":""}],"type":"object","jpath":"$.customer","previewValue":""},{"name":"serviceInstance","children":[{"name":"service-instance-id","children":[],"type":"string","jpath":"$.serviceInstance.service-instance-id","previewValue":"3af9eed7-9a19-425d-b299-f44662b86364"},{"name":"service-instance-name","children":[],"type":"string","jpath":"$.serviceInstance.service-instance-name","previewValue":"Robot_SI_For_VolumeGroup"},{"name":"orchestration-status","children":[],"type":"string","jpath":"$.serviceInstance.orchestration-status","previewValue":"ASSIGNED"},{"name":"owning-entity","children":[{"name":"owning-entity-id","children":[],"type":"string","jpath":"$.serviceInstance.owning-entity.owning-entity-id","previewValue":"c3f57fa8-ac7d-11e8-98d0-529269fb1459"},{"name":"owning-entity-name","children":[],"type":"string","jpath":"$.serviceInstance.owning-entity.owning-entity-name","previewValue":"IP-COMMUNICATIONS"}],"type":"object","jpath":"$.serviceInstance.owning-entity","previewValue":""},{"name":"project","children":[{"name":"project-name","children":[],"type":"string","jpath":"$.serviceInstance.project.project-name","previewValue":"GR_API_OE_MSO_Test4000"}],"type":"object","jpath":"$.serviceInstance.project","previewValue":""},{"name":"collection","children":[],"type":"string","jpath":"$.serviceInstance.collection","previewValue":""},{"name":"vnfs","children":[{"name":"vnfs_string","children":[],"type":"string","jpath":"$.serviceInstance.vnfs[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.vnfs[*]","previewValue":""},{"name":"pnfs","children":[{"name":"pnfs_string","children":[],"type":"string","jpath":"$.serviceInstance.pnfs[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.pnfs[*]","previewValue":""},{"name":"allotted-resources","children":[{"name":"allotted-resources_string","children":[],"type":"string","jpath":"$.serviceInstance.allotted-resources[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.allotted-resources[*]","previewValue":""},{"name":"networks","children":[{"name":"networks_string","children":[],"type":"string","jpath":"$.serviceInstance.networks[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.networks[*]","previewValue":""},{"name":"vpn-bonding-links","children":[{"name":"vpn-bonding-links_string","children":[],"type":"string","jpath":"$.serviceInstance.vpn-bonding-links[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.vpn-bonding-links[*]","previewValue":""},{"name":"vhn-portal-url","children":[],"type":"string","jpath":"$.serviceInstance.vhn-portal-url","previewValue":""},{"name":"service-instance-location-id","children":[],"type":"string","jpath":"$.serviceInstance.service-instance-location-id","previewValue":""},{"name":"selflink","children":[],"type":"string","jpath":"$.serviceInstance.selflink","previewValue":""},{"name":"metadata","children":[],"type":"string","jpath":"$.serviceInstance.metadata","previewValue":""},{"name":"configurations","children":[{"name":"configurations_string","children":[],"type":"string","jpath":"$.serviceInstance.configurations[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.configurations[*]","previewValue":""},{"name":"solution-info","children":[],"type":"string","jpath":"$.serviceInstance.solution-info","previewValue":""},{"name":"model-info-service-instance","children":[{"name":"model-customization-uuid","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-customization-uuid","previewValue":""},{"name":"model-invariant-uuid","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-invariant-uuid","previewValue":"b16a9398-ffa3-4041-b78c-2956b8ad9c7b"},{"name":"model-uuid","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-uuid","previewValue":"bad955c3-29b2-4a27-932e-28e942cc6480"},{"name":"model-version","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-version","previewValue":"1.0"},{"name":"model-instance-name","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-instance-name","previewValue":""},{"name":"model-name","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.model-name","previewValue":"Vf zrdm5bpxmc02092017-Service"},{"name":"description","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.description","previewValue":"Demo"},{"name":"created","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.created","previewValue":"Tue Jun 04 20:11:48 GMT 2019"},{"name":"service-type","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.service-type","previewValue":""},{"name":"service-role","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.service-role","previewValue":""},{"name":"service-function","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.service-function","previewValue":"General_Revenue-Bearing"},{"name":"environment-context","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.environment-context","previewValue":""},{"name":"workload-context","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.workload-context","previewValue":"Mobility"},{"name":"naming-policy","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.naming-policy","previewValue":"networkFunction"},{"name":"onap-generated-naming","children":[],"type":"string","jpath":"$.serviceInstance.model-info-service-instance.onap-generated-naming","previewValue":"false"}],"type":"object","jpath":"$.serviceInstance.model-info-service-instance","previewValue":""},{"name":"instance-groups","children":[{"name":"instance-groups_string","children":[],"type":"string","jpath":"$.serviceInstance.instance-groups[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.instance-groups[*]","previewValue":""},{"name":"service-proxies","children":[{"name":"service-proxies_string","children":[],"type":"string","jpath":"$.serviceInstance.service-proxies[*]","previewValue":""}],"type":"array.string","jpath":"$.serviceInstance.service-proxies[*]","previewValue":""}],"type":"object","jpath":"$.serviceInstance","previewValue":""}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>ec503c341b11f4904b33a825604bcbf6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>e4507c341b11f4904b33a825604bcb11</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <value>{&#13;
+	"requestContext": {&#13;
+		"product-family-id": "a9a77d5a-123e-4ca2-9eb9-0b015d2ee0fb",&#13;
+		"source": "VID",&#13;
+		"requestor-id": "ROBOT",&#13;
+		"subscription-service-type": "Robot_Test_Service_Type",&#13;
+		"user-params": {},&#13;
+		"action": "createInstance",&#13;
+		"callback-url": null,&#13;
+		"service-uri": null,&#13;
+		"mso-request-id": "876f3c0f-e351-4e7d-8920-59241c17056d",&#13;
+		"requestParameters": {&#13;
+			"subscriptionServiceType": "Robot_Test_Service_Type",&#13;
+			"aLaCarte": true,&#13;
+			"usePreload": true&#13;
+		},&#13;
+		"configurationParameters": [],&#13;
+		"application-id": null,&#13;
+		"is-helm": false&#13;
+	},&#13;
+	"orchContext": {&#13;
+		"is-rollback-enabled": true&#13;
+	},&#13;
+	"userInput": null,&#13;
+	"cloudRegion": {&#13;
+		"lcp-cloud-region-id": null,&#13;
+		"cloud-owner": null,&#13;
+		"tenant-id": null,&#13;
+		"complex": null,&#13;
+		"cloud-region-version": null,&#13;
+		"orchestration-disabled": null&#13;
+	},&#13;
+	"tenant": {&#13;
+		"tenant-id": null,&#13;
+		"tenant-name": null,&#13;
+		"tenant-context": null&#13;
+	},&#13;
+	"customer": {&#13;
+		"global-customer-id": "Robot_Test_Subscriber_ID",&#13;
+		"subscriber-name": "Robot_Test_Subscriber_ID",&#13;
+		"subscriber-type": "CUST",&#13;
+		"subscriber-common-site-id": null,&#13;
+		"service-subscription": {&#13;
+			"service-type": "Robot_Test_Service_Type",&#13;
+			"temp-ub-sub-account-id": null,&#13;
+			"service-instances": [&#13;
+				{&#13;
+					"service-instance-id": "3af9eed7-9a19-425d-b299-f44662b86364",&#13;
+					"service-instance-name": "Robot_SI_For_VolumeGroup",&#13;
+					"orchestration-status": "ASSIGNED",&#13;
+					"owning-entity": {&#13;
+						"owning-entity-id": "c3f57fa8-ac7d-11e8-98d0-529269fb1459",&#13;
+						"owning-entity-name": "IP-COMMUNICATIONS"&#13;
+					},&#13;
+					"project": {&#13;
+						"project-name": "GR_API_OE_MSO_Test4000"&#13;
+					},&#13;
+					"collection": null,&#13;
+					"vnfs": [],&#13;
+					"pnfs": [],&#13;
+					"allotted-resources": [],&#13;
+					"networks": [],&#13;
+					"vpn-bonding-links": [],&#13;
+					"vhn-portal-url": null,&#13;
+					"service-instance-location-id": null,&#13;
+					"selflink": null,&#13;
+					"metadata": null,&#13;
+					"configurations": [],&#13;
+					"solution-info": null,&#13;
+					"model-info-service-instance": {&#13;
+						"model-customization-uuid": null,&#13;
+						"model-invariant-uuid": "b16a9398-ffa3-4041-b78c-2956b8ad9c7b",&#13;
+						"model-uuid": "bad955c3-29b2-4a27-932e-28e942cc6480",&#13;
+						"model-version": "1.0",&#13;
+						"model-instance-name": null,&#13;
+						"model-name": "Vf zrdm5bpxmc02092017-Service",&#13;
+						"description": "Demo",&#13;
+						"created": "Tue Jun 04 20:11:48 GMT 2019",&#13;
+						"service-type": "",&#13;
+						"service-role": "",&#13;
+						"service-function": "General_Revenue-Bearing",&#13;
+						"environment-context": null,&#13;
+						"workload-context": "Mobility",&#13;
+						"naming-policy": "networkFunction",&#13;
+						"onap-generated-naming": false&#13;
+					},&#13;
+					"instance-groups": [],&#13;
+					"service-proxies": []&#13;
+				}&#13;
+			]&#13;
+		},&#13;
+		"customer-latitude": null,&#13;
+		"customer-longitude": null,&#13;
+		"vpn-bindings": []&#13;
+	},&#13;
+	"serviceInstance": {&#13;
+		"service-instance-id": "3af9eed7-9a19-425d-b299-f44662b86364",&#13;
+		"service-instance-name": "Robot_SI_For_VolumeGroup",&#13;
+		"orchestration-status": "ASSIGNED",&#13;
+		"owning-entity": {&#13;
+			"owning-entity-id": "c3f57fa8-ac7d-11e8-98d0-529269fb1459",&#13;
+			"owning-entity-name": "IP-COMMUNICATIONS"&#13;
+		},&#13;
+		"project": {&#13;
+			"project-name": "GR_API_OE_MSO_Test4000"&#13;
+		},&#13;
+		"collection": null,&#13;
+		"vnfs": [],&#13;
+		"pnfs": [],&#13;
+		"allotted-resources": [],&#13;
+		"networks": [],&#13;
+		"vpn-bonding-links": [],&#13;
+		"vhn-portal-url": null,&#13;
+		"service-instance-location-id": null,&#13;
+		"selflink": null,&#13;
+		"metadata": null,&#13;
+		"configurations": [],&#13;
+		"solution-info": null,&#13;
+		"model-info-service-instance": {&#13;
+			"model-customization-uuid": null,&#13;
+			"model-invariant-uuid": "b16a9398-ffa3-4041-b78c-2956b8ad9c7b",&#13;
+			"model-uuid": "bad955c3-29b2-4a27-932e-28e942cc6480",&#13;
+			"model-version": "1.0",&#13;
+			"model-instance-name": null,&#13;
+			"model-name": "Vf zrdm5bpxmc02092017-Service",&#13;
+			"description": "Demo",&#13;
+			"created": "Tue Jun 04 20:11:48 GMT 2019",&#13;
+			"service-type": "",&#13;
+			"service-role": "",&#13;
+			"service-function": "General_Revenue-Bearing",&#13;
+			"environment-context": null,&#13;
+			"workload-context": "Mobility",&#13;
+			"naming-policy": "networkFunction",&#13;
+			"onap-generated-naming": false&#13;
+		},&#13;
+		"instance-groups": [],&#13;
+		"service-proxies": []&#13;
+	}&#13;
+}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ec503c341b11f4904b33a825604bcbf6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>ec503c341b11f4904b33a825604bcbf6</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>a0507c341b11f4904b33a825604bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>ec503c341b11f4904b33a825604bcbf6</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>2c507c341b11f4904b33a825604bcb10</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{action.gbbinput}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>ec503c341b11f4904b33a825604bcbf6</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>ec507c341b11f4904b33a825604bcb10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=ec503c341b11f4904b33a825604bcbf6^sys_idNOT IN6c503c341b11f4904b33a825604bcbfb"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDcb8978b8da11f49046677a953fbf0849,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=abe35fca-9202-46b2-8464-b3c58e52653c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">ec503c341b11f4904b33a825604bcbf6</model>
+        <model_id>ec503c341b11f4904b33a825604bcbf6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_ec503c341b11f4904b33a825604bcbf6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>6c503c341b11f4904b33a825604bcbfb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:57:16</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ec503c341b11f4904b33a825604bcbf6^sys_idNOT INac507c341b11f4904b33a825604bcb0f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>source_data</input_name>
+        <instance>ec503c341b11f4904b33a825604bcbf6</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"source_data":{"scriptActive":false}}</script>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>ac507c341b11f4904b33a825604bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:16:58</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_input action="delete_multiple" query="model=a4503c341b11f4904b33a825604bcbea^sys_idNOT IN63a070741b11f4904b33a825604bcbde,7911f4741b11f4904b33a825604bcbd4,f111f4741b11f4904b33a825604bcbce"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=333c3555-4822-48fb-a1be-d5c03f385e33</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbbinput</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>gbbinput</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</model>
+        <model_id>a4503c341b11f4904b33a825604bcbea</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:18:32</sys_created_on>
+        <sys_id>63a070741b11f4904b33a825604bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=bdc03bd5-4848-4365-966c-560e6e66b9c7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field_value</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>field_value</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</model>
+        <model_id>a4503c341b11f4904b33a825604bcbea</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:20:20</sys_created_on>
+        <sys_id>7911f4741b11f4904b33a825604bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:20:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b35605a9-1d24-48ea-90d6-84045bcfabc5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>field_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>field_name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</model>
+        <model_id>a4503c341b11f4904b33a825604bcbea</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:20:19</sys_created_on>
+        <sys_id>f111f4741b11f4904b33a825604bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:20:19</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=a4503c341b11f4904b33a825604bcbea^sys_idNOT IN34507c341b11f4904b33a825604bcb31"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=4b669c5e-8ff5-45d5-87a3-694bd18a3fdb</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>gbbinput</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>gbbinput</label>
+        <mandatory>true</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="MSO json update gBBInput">a4503c341b11f4904b33a825604bcbea</model>
+        <model_id>a4503c341b11f4904b33a825604bcbea</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_a4503c341b11f4904b33a825604bcbea</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>34507c341b11f4904b33a825604bcb31</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea^sys_idNOT IN2ba070741b11f4904b33a825604bcbe3,3911f4741b11f4904b33a825604bcbd9,f111f4741b11f4904b33a825604bcbd3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>gbbinput</element>
+        <help/>
+        <hint/>
+        <label>gbbinput</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:18:32</sys_created_on>
+        <sys_id>2ba070741b11f4904b33a825604bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field_value</element>
+        <help/>
+        <hint/>
+        <label>field_value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:20:20</sys_created_on>
+        <sys_id>3911f4741b11f4904b33a825604bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:20:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>field_name</element>
+        <help/>
+        <hint/>
+        <label>field_name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a4503c341b11f4904b33a825604bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:20:20</sys_created_on>
+        <sys_id>f111f4741b11f4904b33a825604bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:20:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a4503c341b11f4904b33a825604bcbea^sys_idNOT INb8507c341b11f4904b33a825604bcb36"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>gbbinput</element>
+        <help/>
+        <hint/>
+        <label>gbbinput</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a4503c341b11f4904b33a825604bcbea</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-09 14:16:58</sys_created_on>
+        <sys_id>b8507c341b11f4904b33a825604bcb36</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-09 14:18:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
