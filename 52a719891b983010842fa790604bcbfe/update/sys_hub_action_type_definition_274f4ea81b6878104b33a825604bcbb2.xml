@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>274f4ea81b6878104b33a825604bcbb2</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_name>MSO REST APIH to BPMN create SI</sys_name>
         <sys_overrides/>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_274f4ea81b6878104b33a825604bcbb2</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:35</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -69,10 +69,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:23</sys_created_on>
         <sys_id>2f4f4ea81b6878104b33a825604bcbb7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:17</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:09</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2f4f4ea81b6878104b33a825604bcbb7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -195,10 +195,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:23</sys_created_on>
         <sys_id>eb4f4ea81b6878104b33a825604bcbc5</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:17</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"x_requestid","value":"x_requestid"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-RequestID","value":"X-RequestID"}]}</value>
+        <sys_updated_on>2021-07-09 20:45:48</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -282,11 +282,11 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:23</sys_created_on>
         <sys_id>e74f4ea81b6878104b33a825604bcbc4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-01 19:46:23</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:09</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{"type":"ADV_NV","value":[{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"x_requestid","value":"{{action.requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>http_method</field>
@@ -564,14 +564,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:23</sys_created_on>
         <sys_id>634f4ea81b6878104b33a825604bcbca</sys_id>
-        <sys_mod_count>53</sys_mod_count>
+        <sys_mod_count>61</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:34</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -658,17 +658,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="MSO REST APIH to BPMN create SI">274f4ea81b6878104b33a825604bcbb2</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2b6f42e81b6878104b33a825604bcb20","name":"plan"}}</plan>
-        <snapshot>230e71781bd1f4904b33a825604bcbfb</snapshot>
+        <snapshot>6269ce341b15f4904b33a825604bcb10</snapshot>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2b6f42e81b6878104b33a825604bcb20</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:36</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:14</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -738,10 +738,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:55</sys_created_on>
         <sys_id>9b6f02e81b6878104b33a825604bcb97</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:35</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:13</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b6f02e81b6878104b33a825604bcb97"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -766,10 +766,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:55</sys_created_on>
         <sys_id>1b6f02e81b6878104b33a825604bcbb1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:35</sys_updated_on>
-        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"x_requestid","value":"x_requestid"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"X-RequestID","value":"X-RequestID"}]}</value>
+        <sys_updated_on>2021-07-09 20:45:54</sys_updated_on>
+        <value>{}</value>
         <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -951,11 +951,11 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:55</sys_created_on>
         <sys_id>176f02e81b6878104b33a825604bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-06-01 19:46:55</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:13</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value/>
+        <value>{"type":"ADV_NV","value":[{"name":"Content-Type","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"x_requestid","value":"{{action.requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>http_method</field>
@@ -1233,14 +1233,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-06-01 19:46:55</sys_created_on>
         <sys_id>1f6f02e81b6878104b33a825604bcbb5</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-09 19:56:35</sys_updated_on>
+        <sys_updated_on>2021-07-09 20:46:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
