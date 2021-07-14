@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="DELETE">
+        <api_collection/>
+        <api_operation display_value="POST test">25dc9a151b74b050842fa790604bcb2f</api_operation>
+        <description/>
+        <name>Generated Request for 7eafda0d1b3c7050842fa790604bcbd8</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 18:20:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>7a08179ae2d53010958d18b1d4840e13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>25dc9a151b74b050842fa790604bcb2f</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_api_response_local_7a08179ae2d53010958d18b1d4840e13</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:20:39</sys_updated_on>
+    </sys_api_response_local>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</application>
+        <file_path/>
+        <instance_id>54c4e33bdb182810d5c911f84896196b</instance_id>
+        <instance_name>attentpro2poc</instance_name>
+        <name>sys_api_response_local_7a08179ae2d53010958d18b1d4840e13</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local"><sys_api_response_local action="INSERT_OR_UPDATE"><api_collection/><api_operation display_value="POST test">25dc9a151b74b050842fa790604bcb2f</api_operation><description/><name>Generated Request for 7eafda0d1b3c7050842fa790604bcbd8</name><status_code>202</status_code><sys_class_name>sys_api_response_local</sys_class_name><sys_created_by>dm4252</sys_created_by><sys_created_on>2021-07-14 18:20:39</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>7a08179ae2d53010958d18b1d4840e13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>25dc9a151b74b050842fa790604bcb2f</sys_name><sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package><sys_policy/><sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope><sys_update_name>sys_api_response_local_7a08179ae2d53010958d18b1d4840e13</sys_update_name><sys_updated_by>dm4252</sys_updated_by><sys_updated_on>2021-07-14 18:20:39</sys_updated_on></sys_api_response_local></record_update>]]></payload>
+        <payload_hash>-1293492087</payload_hash>
+        <record_name>25dc9a151b74b050842fa790604bcb2f</record_name>
+        <reverted_from/>
+        <source>de5a0f441b5d3090842fa790604bcbdc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 18:20:39</sys_created_on>
+        <sys_id>7e08179a1bd530104b33a825604bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa63fd5ee0000001</sys_recorded_at>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:20:39</sys_updated_on>
+        <type>Local API Response</type>
+        <update_guid>b608179ae5d5301056bcacf0464b8123</update_guid>
+        <update_guid_history>b608179ae5d5301056bcacf0464b8123:-1293492087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 18:39:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_response_local">sys_api_response_local</sys_db_object>
+        <sys_id>86419fdb2621406eb2dc43ee8ff799e9</sys_id>
+        <sys_metadata>7a08179ae2d53010958d18b1d4840e13</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>25dc9a151b74b050842fa790604bcb2f</sys_name>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_scope_delete display_value="">1ced43a95296401884b9786d7fa0d710</sys_scope_delete>
+        <sys_update_name>sys_api_response_local_7a08179ae2d53010958d18b1d4840e13</sys_update_name>
+        <sys_update_version display_value="sys_api_response_local_7a08179ae2d53010958d18b1d4840e13">7e08179a1bd530104b33a825604bcb23</sys_update_version>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:39:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch5-06-09-2021_06-24-2021_0136.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mso_sub_unassignserviceinstanceattbb</internal_name>
+        <label_cache>[]</label_cache>
+        <master_snapshot>a7b4675a1b1930104b33a825604bcbdb</master_snapshot>
+        <name>MSO sub UnassignServiceInstanceATTBB</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 18:56:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ac4023161b1930104b33a825604bcb93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>MSO sub UnassignServiceInstanceATTBB</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name>sys_hub_flow_ac4023161b1930104b33a825604bcb93</sys_update_name>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac4023161b1930104b33a825604bcb93"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ac4023161b1930104b33a825604bcb93"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ac4023161b1930104b33a825604bcb93^sys_idNOT INa04023161b1930104b33a825604bcb95"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ac4023161b1930104b33a825604bcb93</id>
+        <name>MSO sub UnassignServiceInstanceATTBB</name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 18:56:32</sys_created_on>
+        <sys_id>a04023161b1930104b33a825604bcb95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 18:56:32</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ac4023161b1930104b33a825604bcb93^sys_idNOT INfeb4675a1b1930104b33a825604bcb8f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MSO sub UnassignServiceInstanceATTBB">ac4023161b1930104b33a825604bcb93</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:04</sys_created_on>
+        <sys_id>feb4675a1b1930104b33a825604bcb8f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:56:15</sys_updated_on>
+        <ui_id>35af9ce0-aa0f-48b8-a662-1661ba378b84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=feb4675a1b1930104b33a825604bcb8f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>feb4675a1b1930104b33a825604bcb8f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:04</sys_created_on>
+        <sys_id>32b4675a1b1930104b33a825604bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:04</sys_updated_on>
+        <value>nothing</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ac4023161b1930104b33a825604bcb93^sys_idNOT IN27b4675a1b1930104b33a825604bcbeb"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"27b4675a1b1930104b33a825604bcbeb","name":"plan"}}</plan>
+        <plan_id display_value="MSO sub UnassignServiceInstanceATTBB">ac4023161b1930104b33a825604bcb93</plan_id>
+        <snapshot>deabfb121b95f010842fa790604bcb58</snapshot>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27b4675a1b1930104b33a825604bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+    </sys_flow_subflow_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>mso_sub_unassignserviceinstanceattbb</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>MSO sub UnassignServiceInstanceATTBB</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="MSO sub UnassignServiceInstanceATTBB">ac4023161b1930104b33a825604bcb93</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7b4675a1b1930104b33a825604bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7b4675a1b1930104b33a825604bcbdb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a7b4675a1b1930104b33a825604bcbdb"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a7b4675a1b1930104b33a825604bcbdb^sys_idNOT IN6fb4675a1b1930104b33a825604bcbdb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a7b4675a1b1930104b33a825604bcbdb</id>
+        <name>MSO sub UnassignServiceInstanceATTBB</name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:07</sys_created_on>
+        <sys_id>6fb4675a1b1930104b33a825604bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a7b4675a1b1930104b33a825604bcbdb^sys_idNOT INebb4675a1b1930104b33a825604bcbe1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MSO sub UnassignServiceInstanceATTBB">a7b4675a1b1930104b33a825604bcbdb</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:07</sys_created_on>
+        <sys_id>ebb4675a1b1930104b33a825604bcbe1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+        <ui_id>35af9ce0-aa0f-48b8-a662-1661ba378b84</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ebb4675a1b1930104b33a825604bcbe1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ebb4675a1b1930104b33a825604bcbe1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 19:16:07</sys_created_on>
+        <sys_id>2fb4675a1b1930104b33a825604bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 19:16:07</sys_updated_on>
+        <value>nothing</value>
+        <variable display_value="Message">23c1bcc6531003003bf1d9109ec587e5</variable>
+    </sys_variable_value>
+    <sys_hub_flow action="update">
+        <sys_id>ac4023161b1930104b33a825604bcb93</sys_id>
+        <latest_snapshot>a7b4675a1b1930104b33a825604bcbdb</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

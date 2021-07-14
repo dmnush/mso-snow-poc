@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
     <sys_api_operation action="INSERT_OR_UPDATE">
         <active>true</active>
-        <api_collection display_value="Rest trigger for flow id=7eafda0d1b3c7050842fa790604bcbd8 - v1">61dc9a151b74b050842fa790604bcb2b</api_collection>
-        <api_request display_value="Generated Request for 7eafda0d1b3c7050842fa790604bcbd8">9685886e0e9930102097357579db7472</api_request>
+        <api_collection display_value="Rest trigger for flow id=d82167561b1930104b33a825604bcb8a - v1">655033961b5930104b33a825604bcb2c</api_collection>
+        <api_request display_value="Generated Request for d82167561b1930104b33a825604bcb8a">a150339660593010d4055c4c39d31b2c</api_request>
         <api_security_scheme/>
         <deprecated>false</deprecated>
         <description/>
         <execute_asynchronously>true</execute_asynchronously>
-        <execution_record>7eafda0d1b3c7050842fa790604bcbd8</execution_record>
+        <execution_record>d82167561b1930104b33a825604bcb8a</execution_record>
         <execution_type>sys_hub_flow</execution_type>
         <http_method>post</http_method>
-        <name>POST test</name>
+        <name>POST test/backup</name>
         <operation_id/>
-        <path>test</path>
+        <path>test/backup</path>
         <sys_class_name>sys_api_operation</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
-        <sys_created_on>2021-06-16 14:56:38</sys_created_on>
+        <sys_created_on>2021-07-14 20:06:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>25dc9a151b74b050842fa790604bcb2f</sys_id>
+        <sys_id>655033961b5930104b33a825604bcb2f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>POST test</sys_name>
+        <sys_name>POST test/backup</sys_name>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_update_name>sys_api_operation_25dc9a151b74b050842fa790604bcb2f</sys_update_name>
+        <sys_update_name>sys_api_operation_655033961b5930104b33a825604bcb2f</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:39:24</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:06:47</sys_updated_on>
     </sys_api_operation>
 </record_update>

@@ -11,7 +11,7 @@
         <copied_from_name>MSO sub AssignServiceInstanceATT</copied_from_name>
         <description/>
         <internal_name>mso_sub_activateserviceinstanceattbb</internal_name>
-        <label_cache>[{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscriber_name","label":"2➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}},{"name":"subflow.bbinput","label":"Input➛bbinput","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0bd3e3f7-dd71-4216-962e-770223d2d946","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscription_service_type","label":"2➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errorcode","label":"6➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.statuscode","label":"6➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errormessage","label":"6➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.responsepayload","label":"6➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errorcode","label":"3➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.statuscode","label":"3➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errormessage","label":"3➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.responsepayload","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.variable","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a1a72364-612a-437f-949b-6de0df806fff"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.responsepayload","label":"5➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errormessage","label":"5➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.statuscode","label":"5➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errorcode","label":"5➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}}]</label_cache>
+        <label_cache>[{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscriber_name","label":"2➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}},{"name":"subflow.bbinput","label":"Input➛bbinput","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0bd3e3f7-dd71-4216-962e-770223d2d946","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscription_service_type","label":"2➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errorcode","label":"6➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.statuscode","label":"6➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errormessage","label":"6➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.responsepayload","label":"6➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errorcode","label":"3➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.statuscode","label":"3➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errormessage","label":"3➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.responsepayload","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.variable","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a1a72364-612a-437f-949b-6de0df806fff"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.responsepayload","label":"5➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errormessage","label":"5➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.statuscode","label":"5➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errorcode","label":"5➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"59b151b9-992c-4f79-bc60-dcf4f617b258.subscription_service_type","label":"3➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"59b151b9-992c-4f79-bc60-dcf4f617b258.subscriber_name","label":"3➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}}]</label_cache>
         <master_snapshot>c866b61e1b5530104b33a825604bcb57</master_snapshot>
         <name>MSO sub ActivateServiceInstanceATTBB</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1b85f6da1b5530104b33a825604bcba2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>MSO sub ActivateServiceInstanceATTBB</sys_name>
         <sys_overrides/>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name>sys_hub_flow_1b85f6da1b5530104b33a825604bcba2</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:44</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1b85f6da1b5530104b33a825604bcba2"/>
@@ -217,7 +217,124 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=1b85f6da1b5530104b33a825604bcba2^sys_idNOT IN63853ada1b5530104b33a825604bcb2e,6385f6da1b5530104b33a825604bcbdb,eb853ada1b5530104b33a825604bcb32,ef85f6da1b5530104b33a825604bcbd3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1b85f6da1b5530104b33a825604bcba2^sys_idNOT INc239779e1b5930104b33a825604bcb56"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=43a74fd9-8c08-4001-8ceb-ebb9f1a98e18</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</model>
+        <model_id>1b85f6da1b5530104b33a825604bcba2</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_1b85f6da1b5530104b33a825604bcba2</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 20:45:36</sys_created_on>
+        <sys_id>c239779e1b5930104b33a825604bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1b85f6da1b5530104b33a825604bcba2^sys_idNOT IN3f140f961b9530104b33a825604bcbf1,63853ada1b5530104b33a825604bcb2e,6385f6da1b5530104b33a825604bcbdb,eb853ada1b5530104b33a825604bcb32,ef85f6da1b5530104b33a825604bcbd3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="MSO JSON parse BBInput">cf4ab5741bd1f4904b33a825604bcb63</action_type>
+        <action_type_parent display_value="MSO JSON parse BBInput">7c98b1f01bd1f4904b33a825604bcb9d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>cf4ab5741bd1f4904b33a825604bcb63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:36</sys_created_on>
+        <sys_id>3f140f961b9530104b33a825604bcbf1</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:49:21</sys_updated_on>
+        <ui_id>59b151b9-992c-4f79-bc60-dcf4f617b258</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f140f961b9530104b33a825604bcbf1"/>
+    <sys_element_mapping action="delete_multiple" query="id=3f140f961b9530104b33a825604bcbf1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bbinput</field>
+        <id>3f140f961b9530104b33a825604bcbf1</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:36</sys_created_on>
+        <sys_id>7b140f961b9530104b33a825604bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 16:53:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cf4ab5741bd1f4904b33a825604bcb63</table>
+        <value>{{subflow.bbinput}}</value>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
@@ -226,16 +343,16 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:49:58</sys_created_on>
         <sys_id>63853ada1b5530104b33a825604bcb2e</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:49:21</sys_updated_on>
         <ui_id>0732af6a-d5eb-4bc8-8de6-36ea8db73eb2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=63853ada1b5530104b33a825604bcb2e"/>
@@ -258,7 +375,7 @@
         <action_inputs/>
         <action_type display_value="MSO JSON parse BBInput">cf4ab5741bd1f4904b33a825604bcb63</action_type>
         <action_type_parent display_value="MSO JSON parse BBInput">7c98b1f01bd1f4904b33a825604bcb9d</action_type_parent>
-        <comment/>
+        <comment>force fail to test</comment>
         <compiled_snapshot>cf4ab5741bd1f4904b33a825604bcb63</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</flow>
@@ -268,13 +385,27 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:49:57</sys_created_on>
         <sys_id>6385f6da1b5530104b33a825604bcbdb</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:49:21</sys_updated_on>
         <ui_id>0c471279-4b91-4e9b-bcfa-9af583dfc69d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6385f6da1b5530104b33a825604bcbdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6385f6da1b5530104b33a825604bcbdb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:36</sys_created_on>
+        <sys_id>3b140f961b9530104b33a825604bcbed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:36</sys_updated_on>
+        <value/>
+        <variable display_value="bbinput">074ab5741bd1f4904b33a825604bcb73</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6385f6da1b5530104b33a825604bcbdb"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>bbinput</field>
@@ -282,9 +413,9 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:49:57</sys_created_on>
         <sys_id>2785f6da1b5530104b33a825604bcbdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:49:57</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:36</sys_updated_on>
         <table>var__m_sys_hub_action_input_cf4ab5741bd1f4904b33a825604bcb63</table>
         <value>{{subflow.bbinput}}</value>
     </sys_element_mapping>
@@ -296,16 +427,16 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:49:58</sys_created_on>
         <sys_id>eb853ada1b5530104b33a825604bcb32</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:49:21</sys_updated_on>
         <ui_id>0fe12993-e2f7-40ae-a13d-b914489834da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=eb853ada1b5530104b33a825604bcb32"/>
@@ -337,10 +468,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:49:57</sys_created_on>
         <sys_id>ef85f6da1b5530104b33a825604bcbd3</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:49:21</sys_updated_on>
         <ui_id>a06e6fcd-7d9e-4c70-86a6-67395638340b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ef85f6da1b5530104b33a825604bcbd3"/>
@@ -487,21 +618,45 @@
         <url/>
         <url_target/>
     </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1b85f6da1b5530104b33a825604bcba2^sys_idNOT IN4639779e1b5930104b33a825604bcb5f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_1b85f6da1b5530104b33a825604bcba2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 20:45:36</sys_created_on>
+        <sys_id>4639779e1b5930104b33a825604bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1b85f6da1b5530104b33a825604bcba2^sys_idNOT IN9c66b61e1b5530104b33a825604bcbdc"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@7bf254</plan>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"9c66b61e1b5530104b33a825604bcbdc","name":"plan"}}</plan>
         <plan_id display_value="MSO sub ActivateServiceInstanceATTBB">1b85f6da1b5530104b33a825604bcba2</plan_id>
-        <snapshot>c866b61e1b5530104b33a825604bcb57</snapshot>
+        <snapshot>511abbde1b55f010842fa790604bcb05</snapshot>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9c66b61e1b5530104b33a825604bcbdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:44</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -514,7 +669,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>mso_sub_activateserviceinstanceattbb</internal_name>
-        <label_cache>[{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscriber_name","label":"2➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}},{"name":"subflow.bbinput","label":"Input➛bbinput","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0bd3e3f7-dd71-4216-962e-770223d2d946","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscription_service_type","label":"2➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errorcode","label":"6➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.statuscode","label":"6➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errormessage","label":"6➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.responsepayload","label":"6➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errorcode","label":"3➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.statuscode","label":"3➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errormessage","label":"3➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.responsepayload","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.variable","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a1a72364-612a-437f-949b-6de0df806fff"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.responsepayload","label":"5➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errormessage","label":"5➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.statuscode","label":"5➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errorcode","label":"5➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}}]</label_cache>
+        <label_cache>[{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscriber_name","label":"2➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}},{"name":"subflow.bbinput","label":"Input➛bbinput","reference":"","reference_display":"","type":"json","base_type":"json","column_name":"","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"0bd3e3f7-dd71-4216-962e-770223d2d946","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"0c471279-4b91-4e9b-bcfa-9af583dfc69d.subscription_service_type","label":"2➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errorcode","label":"6➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.statuscode","label":"6➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.errormessage","label":"6➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"bb3426ca-992f-42ed-bc8a-cb712afb9148.responsepayload","label":"6➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errorcode","label":"3➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.statuscode","label":"3➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.errormessage","label":"3➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.responsepayload","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"e7deefad-f5c0-456a-a5fd-e29255f384ff.variable","label":"3➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a1a72364-612a-437f-949b-6de0df806fff"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.responsepayload","label":"5➛responsePayload","reference_display":"responsePayload","type":"json","base_type":"json","attributes":{"uiType":"json","uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"8719109f-5832-4f27-b5b3-e87350e21d5c"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errormessage","label":"5➛errorMessage","reference_display":"errorMessage","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"22b78c16-b57b-4ad3-91fd-81e56d322094"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.statuscode","label":"5➛statusCode","reference_display":"statusCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1a9e325b-5256-4659-bcc1-2bef7ac8c711"}},{"name":"7ee42737-934b-432f-b59c-988ea9266b50.errorcode","label":"5➛errorCode","reference_display":"errorCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"cdbfeb34-606c-46a2-90cb-c43e1b6c85cc"}},{"name":"59b151b9-992c-4f79-bc60-dcf4f617b258.subscription_service_type","label":"3➛subscription-service-type","reference_display":"subscription-service-type","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"6e1159f3-6c19-4c16-a704-40cfcf790f83"}},{"name":"59b151b9-992c-4f79-bc60-dcf4f617b258.subscriber_name","label":"3➛subscriber-name","reference_display":"subscriber-name","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a82cdfd9-1ac9-48d1-9808-09ba7e4ccfdc"}}]</label_cache>
         <master>true</master>
         <name>MSO sub ActivateServiceInstanceATTBB</name>
         <natlang/>
@@ -531,7 +686,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c866b61e1b5530104b33a825604bcb57</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -539,7 +694,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:32</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=c866b61e1b5530104b33a825604bcb57"/>
@@ -719,7 +874,89 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=c866b61e1b5530104b33a825604bcb57^sys_idNOT IN0066b61e1b5530104b33a825604bcb9f,8866b61e1b5530104b33a825604bcba3,c066b61e1b5530104b33a825604bcb94,c866b61e1b5530104b33a825604bcb9a"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c866b61e1b5530104b33a825604bcb57^sys_idNOT IN4449b79e1b5930104b33a825604bcba6"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=43a74fd9-8c08-4001-8ceb-ebb9f1a98e18</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>output</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Output</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="MSO sub ActivateServiceInstanceATTBB">c866b61e1b5530104b33a825604bcb57</model>
+        <model_id>c866b61e1b5530104b33a825604bcb57</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_c866b61e1b5530104b33a825604bcb57</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 20:45:43</sys_created_on>
+        <sys_id>4449b79e1b5930104b33a825604bcba6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c866b61e1b5530104b33a825604bcb57^sys_idNOT IN0066b61e1b5530104b33a825604bcb9f,8866b61e1b5530104b33a825604bcba3,c066b61e1b5530104b33a825604bcb94,c866b61e1b5530104b33a825604bcb9a,dd248f961b9530104b33a825604bcb4b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
@@ -728,16 +965,16 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">c866b61e1b5530104b33a825604bcb57</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_id>0066b61e1b5530104b33a825604bcb9f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <ui_id>0732af6a-d5eb-4bc8-8de6-36ea8db73eb2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0066b61e1b5530104b33a825604bcb9f"/>
@@ -763,16 +1000,16 @@
         <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">c866b61e1b5530104b33a825604bcb57</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_id>8866b61e1b5530104b33a825604bcba3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <ui_id>0fe12993-e2f7-40ae-a13d-b914489834da</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8866b61e1b5530104b33a825604bcba3"/>
@@ -804,10 +1041,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_id>c066b61e1b5530104b33a825604bcb94</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <ui_id>a06e6fcd-7d9e-4c70-86a6-67395638340b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c066b61e1b5530104b33a825604bcb94"/>
@@ -830,7 +1067,7 @@
         <action_inputs/>
         <action_type display_value="MSO JSON parse BBInput">cf4ab5741bd1f4904b33a825604bcb63</action_type>
         <action_type_parent display_value="MSO JSON parse BBInput">7c98b1f01bd1f4904b33a825604bcb9d</action_type_parent>
-        <comment/>
+        <comment>force fail to test</comment>
         <compiled_snapshot>cf4ab5741bd1f4904b33a825604bcb63</compiled_snapshot>
         <display_text/>
         <flow display_value="MSO sub ActivateServiceInstanceATTBB">c866b61e1b5530104b33a825604bcb57</flow>
@@ -840,13 +1077,27 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_id>c866b61e1b5530104b33a825604bcb9a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <ui_id>0c471279-4b91-4e9b-bcfa-9af583dfc69d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c866b61e1b5530104b33a825604bcb9a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c866b61e1b5530104b33a825604bcb9a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:42</sys_created_on>
+        <sys_id>1d248f961b9530104b33a825604bcb46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
+        <value/>
+        <variable display_value="bbinput">074ab5741bd1f4904b33a825604bcb73</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c866b61e1b5530104b33a825604bcb9a"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>bbinput</field>
@@ -854,9 +1105,44 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-14 15:53:33</sys_created_on>
         <sys_id>0866b61e1b5530104b33a825604bcb9b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cf4ab5741bd1f4904b33a825604bcb63</table>
+        <value>{{subflow.bbinput}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="MSO JSON parse BBInput">cf4ab5741bd1f4904b33a825604bcb63</action_type>
+        <action_type_parent display_value="MSO JSON parse BBInput">7c98b1f01bd1f4904b33a825604bcb9d</action_type_parent>
+        <comment/>
+        <compiled_snapshot>cf4ab5741bd1f4904b33a825604bcb63</compiled_snapshot>
+        <display_text/>
+        <flow display_value="MSO sub ActivateServiceInstanceATTBB">c866b61e1b5530104b33a825604bcb57</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:42</sys_created_on>
+        <sys_id>dd248f961b9530104b33a825604bcb4b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
+        <ui_id>59b151b9-992c-4f79-bc60-dcf4f617b258</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dd248f961b9530104b33a825604bcb4b"/>
+    <sys_element_mapping action="delete_multiple" query="id=dd248f961b9530104b33a825604bcb4b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bbinput</field>
+        <id>dd248f961b9530104b33a825604bcb4b</id>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 16:53:42</sys_created_on>
+        <sys_id>1d248f961b9530104b33a825604bcb4c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 15:53:33</sys_updated_on>
+        <sys_updated_on>2021-07-14 16:53:42</sys_updated_on>
         <table>var__m_sys_hub_action_input_cf4ab5741bd1f4904b33a825604bcb63</table>
         <value>{{subflow.bbinput}}</value>
     </sys_element_mapping>
@@ -986,6 +1272,30 @@
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
         <sys_updated_on>2021-07-14 15:53:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c866b61e1b5530104b33a825604bcb57^sys_idNOT IN8049b79e1b5930104b33a825604bcbbe"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>output</element>
+        <help/>
+        <hint/>
+        <label>Output</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_c866b61e1b5530104b33a825604bcb57</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dm4252</sys_created_by>
+        <sys_created_on>2021-07-14 20:45:43</sys_created_on>
+        <sys_id>8049b79e1b5930104b33a825604bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dm4252</sys_updated_by>
+        <sys_updated_on>2021-07-14 20:45:43</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
