@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_collection">
     <sys_api_collection action="INSERT_OR_UPDATE">
         <active>true</active>
-        <base_path>/api/x_att2_mso_poc_2/mso_test_stub_1</base_path>
+        <base_path>/api/x_att2_mso_poc_2/mso_delete_si_apih</base_path>
         <description/>
-        <display_name>Rest trigger for flow id=692df9ac1b2878104b33a825604bcb72 - v1</display_name>
-        <name>Rest trigger for flow id=692df9ac1b2878104b33a825604bcb72</name>
+        <display_name>Rest trigger for flow id=25f9f8411b65f4104b33a825604bcbd0 - v1</display_name>
+        <name>Rest trigger for flow id=25f9f8411b65f4104b33a825604bcbd0</name>
         <sys_class_name>sys_api_collection</sys_class_name>
         <sys_created_by>dm4252</sys_created_by>
-        <sys_created_on>2021-06-01 20:42:32</sys_created_on>
+        <sys_created_on>2021-07-22 20:07:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8e2c52641ba878104b33a825604bcbb7</sys_id>
+        <sys_id>643d38451b65f4104b33a825604bcb7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Rest trigger for flow id=692df9ac1b2878104b33a825604bcb72 - v1</sys_name>
+        <sys_name>Rest trigger for flow id=25f9f8411b65f4104b33a825604bcbd0 - v1</sys_name>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
-        <sys_update_name>sys_api_collection_8e2c52641ba878104b33a825604bcbb7</sys_update_name>
+        <sys_update_name>sys_api_collection_643d38451b65f4104b33a825604bcb7d</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-02 16:13:05</sys_updated_on>
+        <sys_updated_on>2021-07-22 20:23:42</sys_updated_on>
         <version>v1</version>
     </sys_api_collection>
 </record_update>

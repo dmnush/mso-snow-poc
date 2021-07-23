@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>92e680d81bdd3090842fa790604bcbfe</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_name>MSO REST GET</sys_name>
         <sys_overrides/>
         <sys_package display_value="MSO-POC-2" source="x_att2_mso_poc_2">52a719891b983010842fa790604bcbfe</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_92e680d81bdd3090842fa790604bcbfe</sys_update_name>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:15</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -117,10 +117,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-07 22:05:14</sys_created_on>
         <sys_id>2c58401c1bdd3090842fa790604bcbdc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:03</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:10</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2c58401c1bdd3090842fa790604bcbdc"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -262,11 +262,11 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-07 22:05:14</sys_created_on>
         <sys_id>e858401c1bdd3090842fa790604bcbfb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:03</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:10</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"X-RequestID","value":"{{action.x_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-FromAppId","value":"{{action.x_fromappid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-PartnerName","value":"{{action.x_onap_partnername}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-InvocationID","value":"{{action.x_invocationid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ECOMP-RequestID","value":"{{action.x_ecomp_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-TransactionId","value":"{{action.x_transactionid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-RequestID","value":"{{action.x_onap_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Basic bTMwNzQ2QG5vbi1wcm9kLm1zby5lY29tcC5hdHQuY29tOm1zbyFub25wcm9kQGFhZg==","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"X-RequestID","value":"{{action.x_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-FromAppId","value":"{{action.x_fromappid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-PartnerName","value":"{{action.x_onap_partnername}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-InvocationID","value":"{{action.x_invocationid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ECOMP-RequestID","value":"{{action.x_ecomp_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-TransactionId","value":"{{action.x_transactionid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-RequestID","value":"{{action.x_onap_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Basic bTMwNzQ2QG5vbi1wcm9kLm1zby5lY29tcC5hdHQuY29tOm1zbyFub25wcm9kQGFhZg==","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -1113,14 +1113,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:51:36</sys_created_on>
         <sys_id>3f2f297c1b91f4904b33a825604bcb79</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:07</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1196,14 +1196,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:51:36</sys_created_on>
         <sys_id>672f297c1b91f4904b33a825604bcb6c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:07</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1279,14 +1279,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:51:36</sys_created_on>
         <sys_id>b32f297c1b91f4904b33a825604bcb80</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:07</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1362,14 +1362,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:51:36</sys_created_on>
         <sys_id>b72f297c1b91f4904b33a825604bcb73</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:07</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1686,17 +1686,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="MSO REST GET">92e680d81bdd3090842fa790604bcbfe</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"840d0c681bd13010842fa790604bcb18","name":"plan"}}</plan>
-        <snapshot>969908621bd930104b33a825604bcb22</snapshot>
+        <snapshot>57009d951b6138104b33a825604bcb92</snapshot>
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-08 17:04:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>840d0c681bd13010842fa790604bcb18</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:10</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:16</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1814,10 +1814,10 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-08 17:04:09</sys_created_on>
         <sys_id>bffcc8681bd13010842fa790604bcb7a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:14</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bffcc8681bd13010842fa790604bcb7a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1959,11 +1959,11 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-08 17:04:09</sys_created_on>
         <sys_id>b3fcc8681bd13010842fa790604bcb87</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:14</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
-        <value>{"type":"ADV_NV","value":[{"name":"X-RequestID","value":"{{action.x_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-FromAppId","value":"{{action.x_fromappid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-PartnerName","value":"{{action.x_onap_partnername}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-InvocationID","value":"{{action.x_invocationid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ECOMP-RequestID","value":"{{action.x_ecomp_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-TransactionId","value":"{{action.x_transactionid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-RequestID","value":"{{action.x_onap_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Basic bTMwNzQ2QG5vbi1wcm9kLm1zby5lY29tcC5hdHQuY29tOm1zbyFub25wcm9kQGFhZg==","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
+        <value>{"type":"ADV_NV","value":[{"name":"X-RequestID","value":"{{action.x_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-FromAppId","value":"{{action.x_fromappid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-PartnerName","value":"{{action.x_onap_partnername}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-InvocationID","value":"{{action.x_invocationid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ECOMP-RequestID","value":"{{action.x_ecomp_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-TransactionId","value":"{{action.x_transactionid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"X-ONAP-RequestID","value":"{{action.x_onap_requestid}}","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Authorization","value":"Basic bTMwNzQ2QG5vbi1wcm9kLm1zby5lY29tcC5hdHQuY29tOm1zbyFub25wcm9kQGFhZg==","attributes":{"omit_if_empty":false,"mandatory":false}},{"name":"Accept","value":"application/json","attributes":{"omit_if_empty":false,"mandatory":false}}]}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>query_params</field>
@@ -2810,14 +2810,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:52:41</sys_created_on>
         <sys_id>636f6d7c1b91f4904b33a825604bcb9d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2893,14 +2893,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:52:41</sys_created_on>
         <sys_id>a76f6d7c1b91f4904b33a825604bcb96</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2976,14 +2976,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:52:41</sys_created_on>
         <sys_id>a76f6d7c1b91f4904b33a825604bcba3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -3059,14 +3059,14 @@
         <sys_created_by>dm4252</sys_created_by>
         <sys_created_on>2021-07-09 18:52:41</sys_created_on>
         <sys_id>eb6f6d7c1b91f4904b33a825604bcba9</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MSO-POC-2">52a719891b983010842fa790604bcbfe</sys_scope>
         <sys_update_name/>
         <sys_updated_by>dm4252</sys_updated_by>
-        <sys_updated_on>2021-07-14 21:57:08</sys_updated_on>
+        <sys_updated_on>2021-07-23 16:08:15</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
